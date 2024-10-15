@@ -1,0 +1,2250 @@
+Address: TT Tân Bình Huyện Yên Sơn, Tuyên Quang
+Result: {'province': 'Tuyên Quang', 'district': 'Bình Xuyên', 'ward': ''}
+Expected: {'province': 'Tuyên Quang', 'district': 'Yên Sơn', 'ward': 'Tân Bình'}
+Status: INCORRECT
+
+Address: 357/28,Ng-T- Thuật,P1,Q3,TP.HồChíMinh.
+Result: {'province': 'Hồ Chí Minh', 'district': '3', 'ward': '11'}
+Expected: {'province': 'Hồ Chí Minh', 'district': '', 'ward': ''}
+Status: INCORRECT
+
+Address: 284DBis Ng Văn Giáo, P3, Mỹ Tho, T.Giang.
+Result: {'province': 'Hà Giang', 'district': 'Mỹ Tho', 'ward': '3'}
+Expected: {'province': 'Tiền Giang', 'district': 'Mỹ Tho', 'ward': '3'}
+Status: INCORRECT
+
+Address: Nà Làng Phú Bình, Chiêm Hoá, Tuyên Quang
+Result: {'province': 'Tuyên Quang', 'district': 'Chiêm Hóa', 'ward': 'Phú Bình'}
+Expected: {'province': 'Tuyên Quang', 'district': 'Chiêm Hóa', 'ward': 'Phú Bình'}
+Status: CORRECT
+
+Address: 59/12 Ng-B-Khiêm, Đa Kao Quận 1, TP. Hồ Chí Minh
+Result: {'province': 'Hồ Chí Minh', 'district': 'Cù Lao Dung', 'ward': 'An Thạnh 1'}
+Expected: {'province': 'Hồ Chí Minh', 'district': '1', 'ward': 'Đa Kao'}
+Status: INCORRECT
+
+Address: 46/8F Trung Chánh 2 Trung Chánh, Hóc Môn, TP. Hồ Chí Minh
+Result: {'province': 'Hồ Chí Minh', 'district': 'Hóc Môn', 'ward': 'Trung Chánh'}
+Expected: {'province': 'Hồ Chí Minh', 'district': 'Hóc Môn', 'ward': 'Trung Chánh'}
+Status: CORRECT
+
+Address: T18,Cẩm Bình, Cẩm Phả, Quảng Ninh.
+Result: {'province': 'Quảng Ninh', 'district': 'Cẩm Phả', 'ward': 'Cẩm Bình'}
+Expected: {'province': 'Quảng Ninh', 'district': 'Cẩm Phả', 'ward': 'Cẩm Bình'}
+Status: CORRECT
+
+Address: Thanh Long, Yên Mỹ Hưng Yên
+Result: {'province': 'Hưng Yên', 'district': 'Thanh Oai', 'ward': ''}
+Expected: {'province': 'Hưng Yên', 'district': 'Yên Mỹ', 'ward': 'Thanh Long'}
+Status: INCORRECT
+
+Address: D2, Thạnh Lợi, Vĩnh Thạnh Cần Thơ
+Result: {'province': 'Vĩnh Phúc', 'district': 'Thanh Oai', 'ward': 'Kim Bài'}
+Expected: {'province': 'Cần Thơ', 'district': 'Vĩnh Thạnh', 'ward': 'Thạnh Lợi'}
+Status: INCORRECT
+
+Address: Cổ Lũy Hải Ba, Hải Lăng, Quảng Trị
+Result: {'province': 'Quảng Trị', 'district': 'Hải Lăng', 'ward': 'Hải Ba'}
+Expected: {'province': 'Quảng Trị', 'district': 'Hải Lăng', 'ward': 'Hải Ba'}
+Status: CORRECT
+
+Address: Khu phố 4 Thị trấn, Dương Minh Châu, Tây Ninh
+Result: {'province': 'Tây Ninh', 'district': 'Dương Minh Châu', 'ward': 'Phan'}
+Expected: {'province': 'Tây Ninh', 'district': 'Dương Minh Châu', 'ward': ''}
+Status: INCORRECT
+
+Address: Khu phố 3, Trảng Dài, Thành phố Biên Hòa, Đồng Nai.
+Result: {'province': 'Đồng Nai', 'district': 'Biên Hòa', 'ward': 'Trảng Dài'}
+Expected: {'province': 'Đồng Nai', 'district': 'Biên Hòa', 'ward': 'Trảng Dài'}
+Status: CORRECT
+
+Address: Số Nhà 38, Tổ 9 Tô Hiệu, Thành phố Sơn La, Sơn La
+Result: {'province': 'Sơn La', 'district': 'Thanh Sơn', 'ward': 'Võ Miếu'}
+Expected: {'province': 'Sơn La', 'district': 'Sơn La', 'ward': 'Tô Hiệu'}
+Status: INCORRECT
+
+Address: CH F1614-HH2-Khu ĐTM Dương Nội, Yên Nghĩa, Hà Đông, Hà Nội
+Result: {'province': 'Hà Nội', 'district': 'Hà Đông', 'ward': 'Yên Nghĩa'}
+Expected: {'province': 'Hà Nội', 'district': 'Hà Đông', 'ward': 'Yên Nghĩa'}
+Status: CORRECT
+
+Address: Khu 3 Suối Hoa, Thành phố Bắc Ninh, Bắc Ninh
+Result: {'province': 'Bắc Ninh', 'district': 'Bắc Ninh', 'ward': 'Suối Hoa'}
+Expected: {'province': 'Bắc Ninh', 'district': 'Bắc Ninh', 'ward': 'Suối Hoa'}
+Status: CORRECT
+
+Address: Phú Lộc Phú Thạnh, Phú Tân, An Giang
+Result: {'province': 'An Giang', 'district': 'Phú Tân', 'ward': 'Phú Thuận'}
+Expected: {'province': 'An Giang', 'district': 'Phú Tân', 'ward': 'Phú Thạnh'}
+Status: INCORRECT
+
+Address: Nguyễn Khuyến Thị trấn Vĩnh Trụ, Lý Nhân, Hà Nam
+Result: {'province': 'Hà Nam', 'district': 'Lý Nhân', 'ward': 'Nhân Thịnh'}
+Expected: {'province': 'Hà Nam', 'district': 'Lý Nhân', 'ward': 'Vĩnh Trụ'}
+Status: INCORRECT
+
+Address: Nam chính Tiền hải, Thái bình
+Result: {'province': 'Thái Bình', 'district': 'Tiền Hải', 'ward': ''}
+Expected: {'province': 'Thái Bình', 'district': 'Tiền Hải', 'ward': 'Nam Chính'}
+Status: INCORRECT
+
+Address: Đá Hàng Hiệp Thạnh, Gò Dầu, Tây Ninh
+Result: {'province': 'Tây Ninh', 'district': 'Gò Dầu', 'ward': 'Hiệp Thạnh'}
+Expected: {'province': 'Tây Ninh', 'district': 'Gò Dầu', 'ward': 'Hiệp Thạnh'}
+Status: CORRECT
+
+Address: 371/11 Thoại Ngọc Hầu Hiệp Tân, Tân Phú, TP. Hồ Chí Minh
+Result: {'province': 'Hồ Chí Minh', 'district': 'Tân Phú', 'ward': 'Thanh Sơn'}
+Expected: {'province': 'Hồ Chí Minh', 'district': 'Tân Phú', 'ward': 'Hiệp Tân'}
+Status: INCORRECT
+
+Address: Số 93, khu phố 9, thị trấn Hai Riêng, Sông Hinh, Phú Yên.
+Result: {'province': 'Phú Yên', 'district': 'Sông Hinh', 'ward': 'Hai Riêng'}
+Expected: {'province': 'Phú Yên', 'district': 'Sông Hinh', 'ward': 'Hai Riêng'}
+Status: CORRECT
+
+Address: Tổ Dân Phố 3 Thị trấn Chư Prông, Chư Prông, Gia Lai
+Result: {'province': 'Gia Lai', 'district': 'Chư Prông', 'ward': 'Chư Prông'}
+Expected: {'province': 'Gia Lai', 'district': 'Chư Prông', 'ward': 'Chư Prông'}
+Status: CORRECT
+
+Address: Xã Minh Đạo, Huyện Tiên Du, Tỉnh Bắc Ninh
+Result: {'province': 'Bắc Ninh', 'district': 'Tiên Du', 'ward': 'Minh Đạo'}
+Expected: {'province': 'Bắc Ninh', 'district': 'Tiên Du', 'ward': 'Minh Đạo'}
+Status: CORRECT
+
+Address: Xã Bồng Khê Huyện Con Cuông, Nghệ An
+Result: {'province': 'Nghệ An', 'district': 'Con Cuông', 'ward': ''}
+Expected: {'province': 'Nghệ An', 'district': 'Con Cuông', 'ward': 'Bồng Khê'}
+Status: INCORRECT
+
+Address: Thôn 16 Cư Prông, Ea Kar, Đắk Lắk
+Result: {'province': 'Đắk Lắk', 'district': 'Ea Kar', 'ward': 'Cư Prông'}
+Expected: {'province': 'Đắk Lắk', 'district': 'Ea Kar', 'ward': 'Cư Prông'}
+Status: CORRECT
+
+Address: Số 259/54/8, Tổ 28, KP1, Long Bình Tân, Biên Hòa, Đồng Nai.
+Result: {'province': 'Đồng Nai', 'district': 'Biên Hòa', 'ward': 'Long Bình Tân'}
+Expected: {'province': 'Đồng Nai', 'district': 'Biên Hòa', 'ward': 'Long Bình Tân'}
+Status: CORRECT
+
+Address: Pháp Ngỡ, Vĩnh Hòa Vĩnh Lộc, Thanh Hóa
+Result: {'province': 'Thanh Hóa', 'district': 'Vĩnh Lộc', 'ward': 'Vĩnh Lộc'}
+Expected: {'province': 'Thanh Hóa', 'district': 'Vĩnh Lộc', 'ward': 'Vĩnh Hòa'}
+Status: INCORRECT
+
+Address: Thôn Chua Bình Minh, Thanh Oai, Hà Nội
+Result: {'province': 'Hà Nội', 'district': 'Thanh Oai', 'ward': 'Bình Minh'}
+Expected: {'province': 'Hà Nội', 'district': 'Thanh Oai', 'ward': 'Bình Minh'}
+Status: CORRECT
+
+Address: Tiểu khu 3, thị trấn Ba Hàng, huyện Phổ Yên, tỉnh Thái Nguyên.
+Result: {'province': 'Thái Nguyên', 'district': 'Phổ Yên', 'ward': 'Ba Hàng'}
+Expected: {'province': '', 'district': '', 'ward': ''}
+Status: INCORRECT
+
+Address: Xóm 2, Hưng Mỹ, Hưng Nguyên, Nghệ An
+Result: {'province': 'Nghệ An', 'district': 'Hưng Nguyên', 'ward': 'Hưng Mỹ'}
+Expected: {'province': 'Nghệ An', 'district': 'Hưng Nguyên', 'ward': 'Hưng Mỹ'}
+Status: CORRECT
+
+Address: Bương Hạ Nam, Quỳnh Ngọc Quỳnh Phụ, Thái Bình
+Result: {'province': 'Thái Bình', 'district': 'Quỳnh Phụ', 'ward': 'Quỳnh Côi'}
+Expected: {'province': 'Thái Bình', 'district': 'Quỳnh Phụ', 'ward': 'Quỳnh Ngọc'}
+Status: INCORRECT
+
+Address: Nậm Cha Sìn Hổ, Lai Châu
+Result: {'province': 'Lai Châu', 'district': 'Nậm Nhùn', 'ward': ''}
+Expected: {'province': 'Lai Châu', 'district': 'Sìn Hồ', 'ward': 'Nậm Cha'}
+Status: INCORRECT
+
+Address: TDP Hạ 10, Tây Tựu Bắc Từ Liêm, Hà Nội
+Result: {'province': 'Hà Nội', 'district': 'Bắc Từ Liêm', 'ward': 'Tây Tựu'}
+Expected: {'province': 'Hà Nội', 'district': 'Bắc Từ Liêm', 'ward': 'Tây Tựu'}
+Status: CORRECT
+
+Address: P. Nghi Hương Thị xã Cửa Lò, Nghệ An
+Result: {'province': 'Nghệ An', 'district': 'Phan Rang-Tháp Chàm', 'ward': ''}
+Expected: {'province': 'Nghệ An', 'district': 'Cửa Lò', 'ward': 'Nghi Hương'}
+Status: INCORRECT
+
+Address: Hoằng Anh Thành phố Thanh Hóa, Thanh Hóa
+Result: {'province': 'Thanh Hóa', 'district': 'Thanh Hóa', 'ward': ''}
+Expected: {'province': 'Thanh Hóa', 'district': 'Thanh Hóa', 'ward': 'Hoằng Anh'}
+Status: INCORRECT
+
+Address: Ấp Phú Hữu Hữu Định, Châu Thành, Bến Tre
+Result: {'province': 'Bến Tre', 'district': 'Châu Thành', 'ward': 'Phú Tân'}
+Expected: {'province': 'Bến Tre', 'district': 'Châu Thành', 'ward': 'Hữu Định'}
+Status: INCORRECT
+
+Address: Phường Yên Thanh, thành phố Uông Bí, tỉnh Quảng Ninh.
+Result: {'province': 'Quảng Ninh', 'district': 'Tân Phú Đông', 'ward': 'Tân Thạnh'}
+Expected: {'province': 'Quảng Ninh', 'district': 'Uông Bí', 'ward': 'Yên Thanh'}
+Status: INCORRECT
+
+Address: Khóm 1 TT Càng Long, Càng Long, Trà Vinh
+Result: {'province': 'Trà Vinh', 'district': 'Càng Long', 'ward': 'Càng Long'}
+Expected: {'province': 'Trà Vinh', 'district': 'Càng Long', 'ward': 'Càng Long'}
+Status: CORRECT
+
+Address: KP 1B, P.An Phú, TX.Thuận An, Bình Dương
+Result: {'province': 'Bình Dương', 'district': 'Thuận An', 'ward': 'An Phú'}
+Expected: {'province': 'Bình Dương', 'district': 'Thuận An', 'ward': 'An Phú'}
+Status: CORRECT
+
+Address: Thôn Xuân Lũng Bình Trung, Cao Lộc, Lạng Sơn
+Result: {'province': 'Lạng Sơn', 'district': 'Cao Lộc', 'ward': 'Bình Trung'}
+Expected: {'province': 'Lạng Sơn', 'district': 'Cao Lộc', 'ward': 'Bình Trung'}
+Status: CORRECT
+
+Address: Phường Hòa Cường Nam, Quận Hải Châu, Thành phố Đà Nẵng.
+Result: {'province': 'Đà Nẵng', 'district': 'Hải Châu', 'ward': 'Hòa Cường Nam'}
+Expected: {'province': 'Đà Nẵng', 'district': 'Hải Châu', 'ward': 'Hòa Cường Nam'}
+Status: CORRECT
+
+Address: TT. Phù Mỹ Phù Mỹ, Bình Định
+Result: {'province': 'Bình Định', 'district': 'Phù Mỹ', 'ward': ''}
+Expected: {'province': 'Bình Định', 'district': 'Phù Mỹ', 'ward': 'Phù Mỹ'}
+Status: INCORRECT
+
+Address: Đô xá, Dân Lực, Triệu Sơn, Thanh Hoá.
+Result: {'province': 'Thanh Hóa', 'district': 'Triệu Sơn', 'ward': 'Dân Lực'}
+Expected: {'province': 'Thanh Hóa', 'district': 'Triệu Sơn', 'ward': 'Dân Lực'}
+Status: CORRECT
+
+Address: 154/4/81 Nguyễn - Phúc Chu, P15, TB, TP. Hồ Chí Minh
+Result: {'province': 'Hồ Chí Minh', 'district': '1', 'ward': 'Đa Kao'}
+Expected: {'province': '', 'district': '', 'ward': ''}
+Status: INCORRECT
+
+Address: Xã Cao Dương, Huyện Thanh Oai, Thành phố Hà Nội
+Result: {'province': 'Hà Nội', 'district': 'Thanh Oai', 'ward': 'Cao Dương'}
+Expected: {'province': 'Hà Nội', 'district': 'Thanh Oai', 'ward': 'Cao Dương'}
+Status: CORRECT
+
+Address: Tổ 8, Ấp An Bình Minh Hòa, Châu Thành, Kiên Giang
+Result: {'province': 'Kiên Giang', 'district': 'Châu Thành', 'ward': 'An Ninh'}
+Expected: {'province': 'Kiên Giang', 'district': 'Châu Thành', 'ward': 'Minh Hòa'}
+Status: INCORRECT
+
+Address: Khu vực 1 TT Đức Hòa, Đức Hòa, Long An
+Result: {'province': 'Long An', 'district': 'Đức Hòa', 'ward': 'Đức Hòa'}
+Expected: {'province': 'Long An', 'district': 'Đức Hòa', 'ward': 'Đức Hòa'}
+Status: CORRECT
+
+Address: Phường Định Công, Quận Hoàng Mai, Thành phố Hà Nội
+Result: {'province': 'Hà Nội', 'district': 'Hoàng Mai', 'ward': 'Định Công'}
+Expected: {'province': 'Hà Nội', 'district': 'Hoàng Mai', 'ward': 'Định Công'}
+Status: CORRECT
+
+Address: Khóm 1,Thị Trấn Tam Bình, Vĩnh Long
+Result: {'province': 'Vĩnh Long', 'district': 'Thăng Bình', 'ward': 'Hà Lam'}
+Expected: {'province': 'Vĩnh Long', 'district': 'Tam Bình', 'ward': ''}
+Status: INCORRECT
+
+Address: Mê linh Lâm hà,Lâm đồng
+Result: {'province': 'Lâm Đồng', 'district': 'Mê Linh', 'ward': ''}
+Expected: {'province': 'Lâm Đồng', 'district': 'Lâm Hà', 'ward': 'Mê Linh'}
+Status: INCORRECT
+
+Address: Đức Long TP. Phan Thiết, Bình Thuận
+Result: {'province': 'Bình Thuận', 'district': 'Phan Thiết', 'ward': ''}
+Expected: {'province': 'Bình Thuận', 'district': 'Phan Thiết', 'ward': 'Đức Long'}
+Status: INCORRECT
+
+Address: Phố Đức Sơn, TT Bút Sơn, Hoằng Hoá, Thanh Hoá.
+Result: {'province': 'Thanh Hóa', 'district': 'Hoằng Hóa', 'ward': 'Bút Sơn'}
+Expected: {'province': 'Thanh Hóa', 'district': 'Hoằng Hóa', 'ward': 'Bút Sơn'}
+Status: CORRECT
+
+Address: Tổ 1, Phú trung P.An Lộc, TX.Bình Long, Bình Phước
+Result: {'province': 'Bình Phước', 'district': 'Bình Long', 'ward': 'An Lộc'}
+Expected: {'province': 'Bình Phước', 'district': 'Bình Long', 'ward': 'An Lộc'}
+Status: CORRECT
+
+Address: Thái Hòa Huyện Thái Thụy, Thái Bình
+Result: {'province': 'Thái Bình', 'district': 'Thái Thụy', 'ward': ''}
+Expected: {'province': 'Thái Bình', 'district': 'Thái Thụy', 'ward': 'Thái Hòa'}
+Status: INCORRECT
+
+Address: Xã Thanh Hòa, Huyện Cai Lậy, Tỉnh Tiền Giang
+Result: {'province': 'Tiền Giang', 'district': 'Cai Lậy', 'ward': 'Thanh Hòa'}
+Expected: {'province': 'Tiền Giang', 'district': 'Cai Lậy', 'ward': 'Thanh Hòa'}
+Status: CORRECT
+
+Address: Thôn 3 Sơn Hải, Quỳnh Lưu, Nghệ An
+Result: {'province': 'Nghệ An', 'district': 'Quỳnh Lưu', 'ward': 'Sơn Hải'}
+Expected: {'province': 'Nghệ An', 'district': 'Quỳnh Lưu', 'ward': 'Sơn Hải'}
+Status: CORRECT
+
+Address: Thôn Thành Bắc, Xã Quảng Thành, TP Thanh Hoá, Thanh Hoá
+Result: {'province': 'Thanh Hóa', 'district': 'Thanh Hà', 'ward': 'Thanh Thủy'}
+Expected: {'province': 'Thanh Hóa', 'district': 'Thanh Hóa', 'ward': 'Quảng Thành'}
+Status: INCORRECT
+
+Address: Chùa hà, Định Trung, Vĩnh Yên Vĩnh Phúc
+Result: {'province': 'Vĩnh Phúc', 'district': 'Vĩnh Tường', 'ward': 'Thổ Tang'}
+Expected: {'province': 'Vĩnh Phúc', 'district': 'Vĩnh Yên', 'ward': 'Định Trung'}
+Status: INCORRECT
+
+Address: T. Phước Trạch 2 Ea Phê, Krông Păc, Đắk Lắk
+Result: {'province': 'Đắk Lắk', 'district': 'Krông Pắc', 'ward': 'Phước An'}
+Expected: {'province': 'Đắk Lắk', 'district': 'Krông Pắc', 'ward': 'Ea Phê'}
+Status: INCORRECT
+
+Address: Xã Lương Lỗ, Huyện Thanh Ba, Tỉnh Phú Thọ
+Result: {'province': 'Phú Thọ', 'district': 'Thanh Ba', 'ward': 'Lương Lỗ'}
+Expected: {'province': 'Phú Thọ', 'district': 'Thanh Ba', 'ward': 'Lương Lỗ'}
+Status: CORRECT
+
+Address: Khang Thọ Hưng Hoằng Đức, Hoằng Hóa, Thanh Hóa
+Result: {'province': 'Thanh Hóa', 'district': 'Hoằng Hóa', 'ward': 'Hoằng Đức'}
+Expected: {'province': 'Thanh Hóa', 'district': 'Hoằng Hóa', 'ward': 'Hoằng Đức'}
+Status: CORRECT
+
+Address: Nam hải Nam trực - Nam định
+Result: {'province': 'Nam Định', 'district': '', 'ward': ''}
+Expected: {'province': 'Nam Định', 'district': 'Nam Trực', 'ward': 'Nam Hải'}
+Status: INCORRECT
+
+Address: 489/24A/18 Huỳnh Văn Bánh Phường 13, Phú Nhuận, TP. Hồ Chí Minh
+Result: {'province': 'Hồ Chí Minh', 'district': 'Phú Nhuận', 'ward': '11'}
+Expected: {'province': 'Hồ Chí Minh', 'district': 'Phú Nhuận', 'ward': '13'}
+Status: INCORRECT
+
+Address: 285 B/1A Bình Gĩa Phường 8,Vũng Tàu,Bà Rịa - Vũng Tàu
+Result: {'province': 'Bà Rịa - Vũng Tàu', 'district': 'Vũng Tàu', 'ward': 'Long Sơn'}
+Expected: {'province': 'Bà Rịa - Vũng Tàu', 'district': 'Vũng Tàu', 'ward': '8'}
+Status: INCORRECT
+
+Address: Mỹ Hòa xã Mỹ Long, H.Cai Lậy, Tiền Giang
+Result: {'province': 'Tiền Giang', 'district': 'Cai Lậy', 'ward': 'Mỹ Hạnh Đông'}
+Expected: {'province': 'Tiền Giang', 'district': 'Cai Lậy', 'ward': 'Mỹ Long'}
+Status: INCORRECT
+
+Address: Thới Hòa A Thị trấn Cờ Đỏ, Cờ Đỏ, Cần Thơ
+Result: {'province': 'Cần Thơ', 'district': 'Cờ Đỏ', 'ward': 'Trung An'}
+Expected: {'province': 'Cần Thơ', 'district': 'Cờ Đỏ', 'ward': 'Cờ Đỏ'}
+Status: INCORRECT
+
+Address: xã Minh Lãng, huyện Vũ Thư, tỉnh Thái Bình
+Result: {'province': 'Thái Bình', 'district': 'Vũ Thư', 'ward': 'Minh Lãng'}
+Expected: {'province': 'Thái Bình', 'district': 'Vũ Thư', 'ward': 'Minh Lãng'}
+Status: CORRECT
+
+Address: Bộ Đầu Thống Nhất, Thường Tín, Hà Nội
+Result: {'province': 'Hà Nội', 'district': 'Thường Tín', 'ward': 'Thống Nhất'}
+Expected: {'province': 'Hà Nội', 'district': 'Thường Tín', 'ward': 'Thống Nhất'}
+Status: CORRECT
+
+Address: Xã Tân Bình Huyện Như Xuân, Thanh Hoá
+Result: {'province': 'Thanh Hóa', 'district': 'Thanh Xuân', 'ward': ''}
+Expected: {'province': 'Thanh Hóa', 'district': 'Như Xuân', 'ward': 'Tân Bình'}
+Status: INCORRECT
+
+Address: Phố 2, Vân Giang Thành phố Ninh Bình, Ninh Bình
+Result: {'province': 'Ninh Bình', 'district': 'Giang Thành', 'ward': 'Phú Mỹ'}
+Expected: {'province': 'Ninh Bình', 'district': 'Ninh Bình', 'ward': 'Vân Giang'}
+Status: INCORRECT
+
+Address: Thôn 1 Quảng Bị, Chương Mỹ, Hà Nội
+Result: {'province': 'Hà Nội', 'district': 'Chương Mỹ', 'ward': 'Quảng Bị'}
+Expected: {'province': 'Hà Nội', 'district': 'Chương Mỹ', 'ward': 'Quảng Bị'}
+Status: CORRECT
+
+Address: Xã Tân Minh, Huyện Sóc Sơn, Thành phố Hà Nội
+Result: {'province': 'Hà Nội', 'district': 'Sóc Sơn', 'ward': 'Tân Minh'}
+Expected: {'province': 'Hà Nội', 'district': 'Sóc Sơn', 'ward': 'Tân Minh'}
+Status: CORRECT
+
+Address: Tổ 11 Sài Đồng, Long Biên, Hà Nội
+Result: {'province': 'Hà Nội', 'district': 'Long Biên', 'ward': 'Sài Đồng'}
+Expected: {'province': 'Hà Nội', 'district': 'Long Biên', 'ward': 'Sài Đồng'}
+Status: CORRECT
+
+Address: 4248 CT12C ĐTM K/Văn-K/Lũ Đại Kim, Hoàng Mai, Hà Nội
+Result: {'province': 'Hà Nội', 'district': 'Hoàng Mai', 'ward': 'Đại Kim'}
+Expected: {'province': 'Hà Nội', 'district': 'Hoàng Mai', 'ward': 'Đại Kim'}
+Status: CORRECT
+
+Address: KP Phước Trung Thị trấn Đất Đỏ, Đất Đỏ, Bà Rịa - Vũng Tàu
+Result: {'province': 'Bà Rịa - Vũng Tàu', 'district': 'Đất Đỏ', 'ward': 'Phước Long Thọ'}
+Expected: {'province': 'Bà Rịa - Vũng Tàu', 'district': 'Đất Đỏ', 'ward': 'Đất Đỏ'}
+Status: INCORRECT
+
+Address: 55/30 Nguyễn - Thượng Hiền,P5,BT, TP. Hồ Chí Minh
+Result: {'province': 'Hồ Chí Minh', 'district': '1', 'ward': 'Đa Kao'}
+Expected: {'province': 'Hồ Chí Minh', 'district': 'Bình Thạnh', 'ward': '5'}
+Status: INCORRECT
+
+Address: 290 Tùng Thiện- Vương,P.13, Quận 8, TP. Hồ Chí Minh.
+Result: {'province': 'Hồ Chí Minh', 'district': 'Quản Bạ', 'ward': 'Tam Sơn'}
+Expected: {'province': 'Hồ Chí Minh', 'district': '8', 'ward': '13'}
+Status: INCORRECT
+
+Address: Tổ 5A2, KP5 TT. Trảng Bom, Trảng Bom, Đồng Nai
+Result: {'province': 'Đồng Nai', 'district': 'Trảng Bom', 'ward': 'Trảng Bom'}
+Expected: {'province': 'Đồng Nai', 'district': 'Trảng Bom', 'ward': 'Trảng Bom'}
+Status: CORRECT
+
+Address: 8 Trịnh Văn Cấn P.C-Ô-Lãnh, Q.1, TP. Hồ Chí Minh
+Result: {'province': 'Hồ Chí Minh', 'district': '1', 'ward': 'Cầu Ông Lãnh'}
+Expected: {'province': 'Hồ Chí Minh', 'district': '1', 'ward': ''}
+Status: INCORRECT
+
+Address: Thôn Đồng Lực Hoàng Lâu, Tam Dương, Vĩnh Phúc
+Result: {'province': 'Vĩnh Phúc', 'district': 'Tam Dương', 'ward': 'Hoàng Lâu'}
+Expected: {'province': 'Vĩnh Phúc', 'district': 'Tam Dương', 'ward': 'Hoàng Lâu'}
+Status: CORRECT
+
+Address: Thái Hòa, Hợp Đồng Chương Mỹ, Hà Nội
+Result: {'province': 'Hà Nội', 'district': 'Chương Mỹ', 'ward': 'Chúc Sơn'}
+Expected: {'province': 'Hà Nội', 'district': 'Chương Mỹ', 'ward': 'Hợp Đồng'}
+Status: INCORRECT
+
+Address: Đồng Trạch, Bố Trạch Quảng Bình
+Result: {'province': 'Quảng Bình', 'district': 'Quảng Trạch', 'ward': ''}
+Expected: {'province': 'Quảng Bình', 'district': 'Bố Trạch', 'ward': 'Đồng Trạch'}
+Status: INCORRECT
+
+Address: Thôn Yến Thạch Xá- Thạch Thất-Hà Nội
+Result: {'province': 'Thừa Thiên Huế', 'district': '', 'ward': ''}
+Expected: {'province': 'Hà Nội', 'district': 'Thạch Thất', 'ward': 'Thạch Xá'}
+Status: INCORRECT
+
+Address: tổ 17 Cụm 3 Phú Thượng, Tây Hồ, Hà Nội
+Result: {'province': 'Hà Nội', 'district': 'Tây Hồ', 'ward': 'Phú Thượng'}
+Expected: {'province': 'Hà Nội', 'district': 'Tây Hồ', 'ward': 'Phú Thượng'}
+Status: CORRECT
+
+Address: Bản U Gia Huổi Luông, Phong Thổ, Lai Châu
+Result: {'province': 'Lai Châu', 'district': 'Phong Thổ', 'ward': 'Huổi Luông'}
+Expected: {'province': 'Lai Châu', 'district': 'Phong Thổ', 'ward': 'Huổi Luông'}
+Status: CORRECT
+
+Address: Khu phố Nam Tân, TT Thuận Nam, Hàm Thuận Bắc, Bình Thuận.
+Result: {'province': 'Bình Thuận', 'district': 'Hàm Thuận Bắc', 'ward': 'Thuận Hòa'}
+Expected: {'province': '', 'district': '', 'ward': ''}
+Status: INCORRECT
+
+Address: 2 dãy C ngõ 16 Ngô Quyền, tổ 14, Quang Trung, Hà Đông, Hà Nội
+Result: {'province': 'Hà Nội', 'district': 'Hà Đông', 'ward': 'Quang Trung'}
+Expected: {'province': 'Hà Nội', 'district': 'Hà Đông', 'ward': 'Quang Trung'}
+Status: CORRECT
+
+Address: Sơn Hà Nho Quan, Ninh Bình
+Result: {'province': 'Ninh Bình', 'district': 'Nho Quan', 'ward': ''}
+Expected: {'province': 'Ninh Bình', 'district': 'Nho Quan', 'ward': 'Sơn Hà'}
+Status: INCORRECT
+
+Address: 3/107 Ngõ Quỳnh Thanh Nhàn, Hai Bà Trưng, Hà Nội
+Result: {'province': 'Hà Nội', 'district': 'Hai Bà Trưng', 'ward': 'Thanh Nhàn'}
+Expected: {'province': 'Hà Nội', 'district': 'Hai Bà Trưng', 'ward': 'Thanh Nhàn'}
+Status: CORRECT
+
+Address: Hàng Gòn Hàng Gòn, TX.Long Khánh, Đồng Nai
+Result: {'province': 'Đồng Nai', 'district': 'Long Khánh', 'ward': 'Hàng Gòn'}
+Expected: {'province': 'Đồng Nai', 'district': 'Long Khánh', 'ward': 'Hàng Gòn'}
+Status: CORRECT
+
+Address: Xã Nguyên Bình Huyện Tĩnh Gia, Thanh Hoá
+Result: {'province': 'Thanh Hóa', 'district': 'Nguyên Bình', 'ward': ''}
+Expected: {'province': 'Thanh Hóa', 'district': 'Tĩnh Gia', 'ward': 'Nguyên Bình'}
+Status: INCORRECT
+
+Address: Cụm 5, Ngọc Tảo, Phúc Thọ Hà Nội
+Result: {'province': 'Phú Thọ', 'district': 'Ngọc Lặc', 'ward': 'Ngọc Lặc'}
+Expected: {'province': 'Hà Nội', 'district': 'Phúc Thọ', 'ward': 'Ngọc Tảo'}
+Status: INCORRECT
+
+Address: Hoằng Minh, Hoằng Hóa Thanh Hóa
+Result: {'province': 'Thanh Hóa', 'district': 'Hoàng Mai', 'ward': ''}
+Expected: {'province': 'Thanh Hóa', 'district': 'Hoằng Hóa', 'ward': 'Hoằng Minh'}
+Status: INCORRECT
+
+Address: Châu Thạnh Châu Phú A, Châu Đốc, An Giang
+Result: {'province': 'An Giang', 'district': 'Châu Đốc', 'ward': 'Châu Phú A'}
+Expected: {'province': 'An Giang', 'district': 'Châu Đốc', 'ward': 'Châu Phú A'}
+Status: CORRECT
+
+Address: Liên Bình, Hải Bình Tĩnh Gia, Thanh Hóa
+Result: {'province': 'Thanh Hóa', 'district': 'Bình Gia', 'ward': 'Hòa Bình'}
+Expected: {'province': 'Thanh Hóa', 'district': 'Tĩnh Gia', 'ward': 'Hải Bình'}
+Status: INCORRECT
+
+Address: Long Bình 1, An Hải, Ninh Phước, Ninh Thuận
+Result: {'province': 'Ninh Thuận', 'district': 'Ninh Phước', 'ward': 'An Hải'}
+Expected: {'province': 'Ninh Thuận', 'district': 'Ninh Phước', 'ward': 'An Hải'}
+Status: CORRECT
+
+Address: Ấp 17 Long Trung, Cai Lậy, Tiền Giang
+Result: {'province': 'Tiền Giang', 'district': 'Cai Lậy', 'ward': 'Mỹ Hạnh Trung'}
+Expected: {'province': 'Tiền Giang', 'district': 'Cai Lậy', 'ward': 'Long Trung'}
+Status: INCORRECT
+
+Address: 249,KP.2,Tân mai,Biên Hòa, Đồng Nai
+Result: {'province': 'Đồng Nai', 'district': 'Biên Hòa', 'ward': 'Tân Mai'}
+Expected: {'province': 'Đồng Nai', 'district': 'Biên Hòa', 'ward': 'Tân Mai'}
+Status: CORRECT
+
+Address: Sơn Thủy, Lệ Thủy Quảng Bình
+Result: {'province': 'Quảng Bình', 'district': 'Sơn Tây', 'ward': ''}
+Expected: {'province': 'Quảng Bình', 'district': 'Lệ Thủy', 'ward': 'Sơn Thủy'}
+Status: INCORRECT
+
+Address: 02 Tú Xương, Đông Thọ Thành phố Thanh Hóa, Thanh Hóa
+Result: {'province': 'Thanh Hóa', 'district': 'Thanh Hóa', 'ward': 'Đông Cương'}
+Expected: {'province': 'Thanh Hóa', 'district': 'Thanh Hóa', 'ward': 'Đông Thọ'}
+Status: INCORRECT
+
+Address: Tân Trung Tân Thành, Tân Châu, Tây Ninh
+Result: {'province': 'Tây Ninh', 'district': 'Tân Châu', 'ward': 'Tân Thành'}
+Expected: {'province': 'Tây Ninh', 'district': 'Tân Châu', 'ward': 'Tân Thành'}
+Status: CORRECT
+
+Address: Số 43/7 Nguyễn Huệ, P.Sao Đỏ, TX.Chí Linh, Hải Dương
+Result: {'province': 'Hải Dương', 'district': 'Chí Linh', 'ward': 'Sao Đỏ'}
+Expected: {'province': 'Hải Dương', 'district': 'Chí Linh', 'ward': 'Sao Đỏ'}
+Status: CORRECT
+
+Address: 24/98C, Phố Hữu Nghị Xuân Khanh, Sơn Tây, Hà Nội
+Result: {'province': 'Hà Nội', 'district': 'Sơn Tây', 'ward': 'Xuân Khanh'}
+Expected: {'province': 'Hà Nội', 'district': 'Sơn Tây', 'ward': 'Xuân Khanh'}
+Status: CORRECT
+
+Address: Tổ 2, Khu phố 2, Phường Long Thủy, Phước Long, Bình Phước.
+Result: {'province': 'Bình Phước', 'district': 'Phước Long', 'ward': 'Long Thủy'}
+Expected: {'province': 'Bình Phước', 'district': 'Phước Long', 'ward': 'Long Thủy'}
+Status: CORRECT
+
+Address: Hà Tân Hưng Hà, Tân Hưng, Long An
+Result: {'province': 'Long An', 'district': 'Tân Hưng', 'ward': 'Tân Hưng'}
+Expected: {'province': 'Long An', 'district': 'Tân Hưng', 'ward': 'Hưng Hà'}
+Status: INCORRECT
+
+Address: Ngọc Chi, Vĩnh Ngọc Đông Anh, Hà Nội
+Result: {'province': 'Hà Nội', 'district': 'Đông Anh', 'ward': 'Đông Anh'}
+Expected: {'province': 'Hà Nội', 'district': 'Đông Anh', 'ward': 'Vĩnh Ngọc'}
+Status: INCORRECT
+
+Address: 55/21/1 Khu phố 2, Thới An Quận 12, TP. Hồ Chí Minh
+Result: {'province': 'Hồ Chí Minh', 'district': 'Hớn Quản', 'ward': 'An Phú'}
+Expected: {'province': 'Hồ Chí Minh', 'district': '12', 'ward': 'Thới An'}
+Status: INCORRECT
+
+Address: Thạch Bình, Thạch Thành Thanh Hóa
+Result: {'province': 'Thanh Hóa', 'district': 'Thanh Bình', 'ward': ''}
+Expected: {'province': 'Thanh Hóa', 'district': 'Thạch Thành', 'ward': 'Thạch Bình'}
+Status: INCORRECT
+
+Address: - Khu B Chu Hoà, Việt HhiPhú Thọ
+Result: {'province': 'Phú Thọ', 'district': 'Thạch Hà', 'ward': ''}
+Expected: {'province': '', 'district': '', 'ward': ''}
+Status: INCORRECT
+
+Address: Thôn Am, xã Xuân Hương, Lạng Giang, Bắc Giang.
+Result: {'province': 'Bắc Giang', 'district': 'Lạng Giang', 'ward': 'Xuân Hương'}
+Expected: {'province': 'Bắc Giang', 'district': 'Lạng Giang', 'ward': 'Xuân Hương'}
+Status: CORRECT
+
+Address: Số 7/Q3, KPI, Phường Long Bình Tân, Tp Biên Hoà, Đồng Nai.
+Result: {'province': 'Đồng Nai', 'district': 'Thái Hoà', 'ward': 'Long Sơn'}
+Expected: {'province': 'Đồng Nai', 'district': 'Biên Hòa', 'ward': 'Long Bình Tân'}
+Status: INCORRECT
+
+Address: Khu 1, Trung Giáp, Phù Ninh, Phú Thọ.
+Result: {'province': 'Phú Thọ', 'district': 'Phù Ninh', 'ward': 'Trung Giáp'}
+Expected: {'province': 'Phú Thọ', 'district': 'Phù Ninh', 'ward': 'Trung Giáp'}
+Status: CORRECT
+
+Address: A:12A.21BlockA C/c BCA,P.AnKhánh,TP.Thủ Đức, TP. HCM
+Result: {'province': 'Hà Nam', 'district': 'Thủ Đức', 'ward': 'An Khánh'}
+Expected: {'province': 'Hồ Chí Minh', 'district': 'Thủ Đức', 'ward': ''}
+Status: INCORRECT
+
+Address: L10C12 Hẻm 90, Ng, Bỉnh Khiêm, TP. Rạch Giá, Kiên Giang
+Result: {'province': 'Kiên Giang', 'district': 'Rạch Giá', 'ward': 'Vĩnh Hiệp'}
+Expected: {'province': 'Kiên Giang', 'district': '', 'ward': ''}
+Status: INCORRECT
+
+Address: Thôn Lý Viên Bắc Lý, Hiệp Hòa, Bắc Giang
+Result: {'province': 'Bắc Giang', 'district': 'Hiệp Hòa', 'ward': 'Bắc Lý'}
+Expected: {'province': 'Bắc Giang', 'district': 'Hiệp Hòa', 'ward': 'Bắc Lý'}
+Status: CORRECT
+
+Address: 51 Phạm Ngũ Lão, Lê Lợi Sơn Tây, Hà Nội
+Result: {'province': 'Hà Nội', 'district': 'Sơn Tây', 'ward': 'Đường Lâm'}
+Expected: {'province': 'Hà Nội', 'district': 'Sơn Tây', 'ward': 'Lê Lợi'}
+Status: INCORRECT
+
+Address: 107 Lê Sao Phú Thạnh, Tân Phú, TP. Hồ Chí Minh.
+Result: {'province': 'Hồ Chí Minh', 'district': 'Tân Phú', 'ward': 'Phú Thịnh'}
+Expected: {'province': 'Hồ Chí Minh', 'district': 'Tân Phú', 'ward': 'Phú Thạnh'}
+Status: INCORRECT
+
+Address: Mỹ Phú 5 Tường Lộc, Tam Bình, Vĩnh Long
+Result: {'province': 'Vĩnh Long', 'district': 'Tam Bình', 'ward': 'Tường Lộc'}
+Expected: {'province': 'Vĩnh Long', 'district': 'Tam Bình', 'ward': 'Tường Lộc'}
+Status: CORRECT
+
+Address: Thôn Mùi, Bích Hòa Thanh Oai, Hà Nội
+Result: {'province': 'Hà Nội', 'district': 'Thanh Oai', 'ward': 'Kim Bài'}
+Expected: {'province': 'Hà Nội', 'district': 'Thanh Oai', 'ward': 'Bích Hòa'}
+Status: INCORRECT
+
+Address: thôn 2 Suối Rao, Châu Đức, Bà Rịa - Vũng Tàu
+Result: {'province': 'Bà Rịa - Vũng Tàu', 'district': 'Châu Đức', 'ward': 'Suối Rao'}
+Expected: {'province': 'Bà Rịa - Vũng Tàu', 'district': 'Châu Đức', 'ward': 'Suối Rao'}
+Status: CORRECT
+
+Address: P. Minh Xuân TP. Tuyên Quang, Tuyên Quang
+Result: {'province': 'Tuyên Quang', 'district': 'Tuyên Quang', 'ward': ''}
+Expected: {'province': 'Tuyên Quang', 'district': 'Tuyên Quang', 'ward': 'Minh Xuân'}
+Status: INCORRECT
+
+Address: Long Bình, An Hải, Ninh Phước, Ninh Thuận
+Result: {'province': 'Ninh Thuận', 'district': 'Ninh Phước', 'ward': 'An Hải'}
+Expected: {'province': 'Ninh Thuận', 'district': 'Ninh Phước', 'ward': 'An Hải'}
+Status: CORRECT
+
+Address: 14.5 Block A2, The Mansion, ĐS 7,KDC 13E,Ấp 5,PP,BC, TP.HCM
+Result: {'province': 'Hà Nam', 'district': '1', 'ward': 'Đa Kao'}
+Expected: {'province': 'Hồ Chí Minh', 'district': '', 'ward': ''}
+Status: INCORRECT
+
+Address: Xã Yên Sơn, Huyện Lục Nam, Tỉnh Bắc Giang
+Result: {'province': 'Bắc Giang', 'district': 'Lục Nam', 'ward': 'Yên Sơn'}
+Expected: {'province': 'Bắc Giang', 'district': 'Lục Nam', 'ward': 'Yên Sơn'}
+Status: CORRECT
+
+Address: 161/18A Cô Giang, Cô Giang Quận 1, TP. Hồ Chí Minh
+Result: {'province': 'Hồ Chí Minh', 'district': 'Giang Thành', 'ward': 'Vĩnh Điều'}
+Expected: {'province': 'Hồ Chí Minh', 'district': '1', 'ward': 'Cô Giang'}
+Status: INCORRECT
+
+Address: Tân Thắng Tân An Hội, Mang Thít, Vĩnh Long
+Result: {'province': 'Vĩnh Long', 'district': 'Mang Thít', 'ward': 'Tân An Hội'}
+Expected: {'province': 'Vĩnh Long', 'district': 'Mang Thít', 'ward': 'Tân An Hội'}
+Status: CORRECT
+
+Address: Thôn 6, Nam Chính, Đức Linh, Bình Thuận.
+Result: {'province': 'Bình Thuận', 'district': 'Đức Linh', 'ward': 'Nam Chính'}
+Expected: {'province': 'Bình Thuận', 'district': 'Đức Linh', 'ward': 'Nam Chính'}
+Status: CORRECT
+
+Address: Phố Tân Mỹ Thị trấn Me, Gia Viễn, Ninh Bình
+Result: {'province': 'Ninh Bình', 'district': 'Gia Viễn', 'ward': 'Gia Trấn'}
+Expected: {'province': 'Ninh Bình', 'district': 'Gia Viễn', 'ward': 'Me'}
+Status: INCORRECT
+
+Address: P.Phan thiết, Thị Xã Tuyên Quang, Tuyên Quang
+Result: {'province': 'Tuyên Quang', 'district': 'Tuyên Quang', 'ward': 'Phan Thiết'}
+Expected: {'province': 'Tuyên Quang', 'district': 'Tuyên Quang', 'ward': 'Phan Thiết'}
+Status: CORRECT
+
+Address: Trung Môn Yên Sơn - Tuyên Quang
+Result: {'province': 'Tuyên Quang', 'district': '', 'ward': ''}
+Expected: {'province': 'Tuyên Quang', 'district': 'Yên Sơn', 'ward': 'Trung Môn'}
+Status: INCORRECT
+
+Address: 31B Sư Vạn Hạnh, Phường 3 Quận 10, TP. Hồ Chí Minh
+Result: {'province': 'Hồ Chí Minh', 'district': 'Thường Xuân', 'ward': 'Vạn Xuân'}
+Expected: {'province': 'Hồ Chí Minh', 'district': '10', 'ward': '3'}
+Status: INCORRECT
+
+Address: Tề Lễ Tam Nông, Phú Thọ
+Result: {'province': 'Phú Thọ', 'district': 'Tam Nông', 'ward': ''}
+Expected: {'province': 'Phú Thọ', 'district': 'Tam Nông', 'ward': 'Tề Lễ'}
+Status: INCORRECT
+
+Address: Số 10, Ngách 43/3, Ngõ 43 Nguyễn Ngọc Nại, Khương Mai, Thanh Xuân, Hà Nội.
+Result: {'province': 'Hà Nội', 'district': 'Thanh Xuân', 'ward': 'Khương Mai'}
+Expected: {'province': 'Hà Nội', 'district': 'Thanh Xuân', 'ward': 'Khương Mai'}
+Status: CORRECT
+
+Address: 191A Nguyễn Thị Định An Phú, Quận 2, Tp Hồ Chí Minh
+Result: {'province': 'Hồ Chí Minh', 'district': 'Quản Bạ', 'ward': 'Nghĩa Thuận'}
+Expected: {'province': 'Hồ Chí Minh', 'district': '2', 'ward': 'An Phú'}
+Status: INCORRECT
+
+Address: Tường Ngãi Nhơn Bình,Trà Ôn, Vĩnh Long
+Result: {'province': 'Vĩnh Long', 'district': 'Trà Ôn', 'ward': 'Nhơn Bình'}
+Expected: {'province': 'Vĩnh Long', 'district': 'Trà Ôn', 'ward': 'Nhơn Bình'}
+Status: CORRECT
+
+Address: Tổ 03 Hòa Thọ Đông, Cẩm Lệ. Đà Nẵng.
+Result: {'province': 'Đà Nẵng', 'district': 'Tân Phú Đông', 'ward': ''}
+Expected: {'province': 'Đà Nẵng', 'district': 'Cẩm Lệ', 'ward': 'Hòa Thọ Đông'}
+Status: INCORRECT
+
+Address: Khu 5, Ngô Quyền, Vĩnh Yên Vĩnh Phúc
+Result: {'province': 'Vĩnh Phúc', 'district': 'Ngô Quyền', 'ward': 'Máy Tơ'}
+Expected: {'province': 'Vĩnh Phúc', 'district': 'Vĩnh Yên', 'ward': 'Ngô Quyền'}
+Status: INCORRECT
+
+Address: Tổ 11, Ấp Tây Kim Sơn, Châu Thành, Tiền Giang
+Result: {'province': 'Tiền Giang', 'district': 'Châu Thành', 'ward': 'Hồ Đắc Kiện'}
+Expected: {'province': 'Tiền Giang', 'district': 'Châu Thành', 'ward': 'Kim Sơn'}
+Status: INCORRECT
+
+Address: Số 1410 Đường 30/4, Phường 12, Thành phố Vũng Tàu, Bà Rịa - Vũng Tàu.
+Result: {'province': 'Bà Rịa - Vũng Tàu', 'district': 'Thanh Chương', 'ward': 'Đồng Văn'}
+Expected: {'province': 'Bà Rịa - Vũng Tàu', 'district': 'Vũng Tàu', 'ward': '12'}
+Status: INCORRECT
+
+Address: F2B PhanVănTr P.5,GV,TP.Hồ Chí Minh
+Result: {'province': 'Hồ Chí Minh', 'district': '1', 'ward': 'Phạm Ngũ Lão'}
+Expected: {'province': 'Hồ Chí Minh', 'district': '', 'ward': ''}
+Status: INCORRECT
+
+Address: Chiêu Yên Yên Sơn, Tuyên Quang
+Result: {'province': 'Tuyên Quang', 'district': 'Yên Sơn', 'ward': ''}
+Expected: {'province': 'Tuyên Quang', 'district': 'Yên Sơn', 'ward': 'Chiêu Yên'}
+Status: INCORRECT
+
+Address: Ấp Thạnh Hiệp Hòa Thạnh, Tam Bình, Vĩnh Long
+Result: {'province': 'Vĩnh Long', 'district': 'Tam Bình', 'ward': 'Hòa Thạnh'}
+Expected: {'province': 'Vĩnh Long', 'district': 'Tam Bình', 'ward': 'Hòa Thạnh'}
+Status: CORRECT
+
+Address: Phường Lê Hồng Phong Tp. Quy Nhơn, tỉnh Bình Định.
+Result: {'province': 'Bình Định', 'district': 'Hưng Nguyên', 'ward': ''}
+Expected: {'province': 'Bình Định', 'district': 'Quy Nhơn', 'ward': 'Lê Hồng Phong'}
+Status: INCORRECT
+
+Address: 7/3/4/16 Thành Thái Phường 14, Quận 10, TP. Hồ Chí Minh
+Result: {'province': 'Hồ Chí Minh', 'district': 'Quản Bạ', 'ward': 'Thanh Vân'}
+Expected: {'province': 'Hồ Chí Minh', 'district': '10', 'ward': '14'}
+Status: INCORRECT
+
+Address: Ấp Bùng Binh, Hưng Thuận, Trảng Bàng, Tây Ninh
+Result: {'province': 'Tây Ninh', 'district': 'Trảng Bàng', 'ward': 'Hưng Thuận'}
+Expected: {'province': 'Tây Ninh', 'district': 'Trảng Bàng', 'ward': 'Hưng Thuận'}
+Status: CORRECT
+
+Address: Quang Xá, Quang Hưng, Phù Cừ, Hưng Yên
+Result: {'province': 'Hưng Yên', 'district': 'Phù Cừ', 'ward': 'Quang Hưng'}
+Expected: {'province': 'Hưng Yên', 'district': 'Phù Cừ', 'ward': 'Quang Hưng'}
+Status: CORRECT
+
+Address: Thôn Lùng Bẻ Kim Linh, Vị Xuyên, Hà Giang
+Result: {'province': 'Hà Giang', 'district': 'Vị Xuyên', 'ward': 'Kim Linh'}
+Expected: {'province': 'Hà Giang', 'district': 'Vị Xuyên', 'ward': 'Kim Linh'}
+Status: CORRECT
+
+Address: Xã Krông Búk Huyện Krông Păc, Đắk Lắk
+Result: {'province': 'Đắk Lắk', 'district': 'Krông Bông', 'ward': ''}
+Expected: {'province': 'Đắk Lắk', 'district': 'Krông Pắc', 'ward': 'KRông Búk'}
+Status: INCORRECT
+
+Address: 820/12 Hậu Giang, Phường 12 Quận 6, TP. Hồ Chí Minh
+Result: {'province': 'Hồ Chí Minh', 'district': 'Thường Xuân', 'ward': 'Thọ Thanh'}
+Expected: {'province': 'Hồ Chí Minh', 'district': '6', 'ward': '12'}
+Status: INCORRECT
+
+Address: Mỹ Hưng Hòa,Mỹ Xương,Cao Lãnh, Đồng Tháp.
+Result: {'province': 'Đồng Tháp', 'district': 'Cao Lãnh', 'ward': 'Mỹ Phú'}
+Expected: {'province': 'Đồng Tháp', 'district': 'Cao Lãnh', 'ward': 'Mỹ Xương'}
+Status: INCORRECT
+
+Address: Liên Minh,,TỉnhThái Nguyên
+Result: {'province': 'Thái Nguyên', 'district': '1', 'ward': 'Tân Định'}
+Expected: {'district': '', 'ward': 'Liên Minh', 'province': 'Thái Nguyên'}
+Status: INCORRECT
+
+Address: X Bình Thuận H.Tây Son Tỉnh Bình Định
+Result: {'province': 'Bình Thuận', 'district': '', 'ward': ''}
+Expected: {'district': 'Tây Sơn', 'ward': 'Bình Thuận', 'province': 'Bình Định'}
+Status: INCORRECT
+
+Address: , Gia Viễn, T. Ninh Binh
+Result: {'province': 'Ninh Bình', 'district': 'Gia Viễn', 'ward': 'Me'}
+Expected: {'district': 'Gia Viễn', 'ward': '', 'province': 'Ninh Bình'}
+Status: INCORRECT
+
+Address:  Chợ Chu, , T Thái Nguyên
+Result: {'province': 'Thái Nguyên', 'district': '1', 'ward': 'Cầu Kho'}
+Expected: {'district': '', 'ward': 'Chợ Chu', 'province': 'Thái Nguyên'}
+Status: INCORRECT
+
+Address: Hải Ba  Hải Lăng 
+Result: {'province': 'Hải Phòng', 'district': '', 'ward': ''}
+Expected: {'district': 'Hải Lăng', 'ward': 'Hải Ba', 'province': ''}
+Status: INCORRECT
+
+Address:  Huyện Cẩm Thủy Tỉnh Thanh Hóa
+Result: {'province': 'Thanh Hóa', 'district': '', 'ward': ''}
+Expected: {'district': 'Cẩm Thủy', 'ward': '', 'province': 'Thanh Hóa'}
+Status: INCORRECT
+
+Address: Phường Phú Lợi  TBình Dương
+Result: {'province': 'Bình Dương', 'district': '', 'ward': ''}
+Expected: {'district': '', 'ward': 'Phú Lợi', 'province': 'Bình Dương'}
+Status: INCORRECT
+
+Address:  Tự Lạn, HuyệnViệt Yên, T Bắc Giang
+Result: {'province': 'Bắc Giang', 'district': 'Việt Yên', 'ward': 'Tự Lạn'}
+Expected: {'district': 'Việt Yên', 'ward': 'Tự Lạn', 'province': 'Bắc Giang'}
+Status: CORRECT
+
+Address:  Bình Hiệp,H.Bình Sơn,TỉnhQuảng Ngãi
+Result: {'province': 'Quảng Ngãi', 'district': 'Bình Sơn', 'ward': 'Bình Hiệp'}
+Expected: {'district': 'Bình Sơn', 'ward': 'Bình Hiệp', 'province': 'Quảng Ngãi'}
+Status: CORRECT
+
+Address: X. Trà Sơn,Huyện Trà Bồng,T.Quảng mNgãi
+Result: {'province': 'Quảng Ngãi', 'district': 'Trà Bồng', 'ward': 'Trà Sơn'}
+Expected: {'district': 'Trà Bồng', 'ward': 'Trà Sơn', 'province': 'Quảng Ngãi'}
+Status: CORRECT
+
+Address: X Vĩnh Lợi, Huyện Châu Thành, Tỉnhan Giang
+Result: {'province': 'Tiền Giang', 'district': 'Châu Thành', 'ward': 'Phú Tâm'}
+Expected: {'district': 'Châu Thành', 'ward': 'Vĩnh Lợi', 'province': 'An Giang'}
+Status: INCORRECT
+
+Address: Van Điểm, H hường TLín, Thành phốHa Nội
+Result: {'province': 'Thanh Hóa', 'district': 'Thường Tín', 'ward': 'Vạn Điểm'}
+Expected: {'district': 'Thường Tín', 'ward': 'Vạn Điểm', 'province': 'Hà Nội'}
+Status: INCORRECT
+
+Address: Thị Trấn Yên Bình  Yên Bình T Yên Bái
+Result: {'province': 'Ninh Bình', 'district': '', 'ward': ''}
+Expected: {'district': 'Yên Bình', 'ward': 'Yên Bình', 'province': 'Yên Bái'}
+Status: INCORRECT
+
+Address: XThạnh Đức, HGò Dầ6u, T Tây Ninh
+Result: {'province': 'Tây Ninh', 'district': 'Gò Dầu', 'ward': 'Thạnh Đức'}
+Expected: {'district': 'Gò Dầu', 'ward': 'Thạnh Đức', 'province': 'Tây Ninh'}
+Status: CORRECT
+
+Address: X.Thài Phìn Tủng, Huyện ĐồGg Van,  Hà Gxiang
+Result: {'province': 'Hà Giang', 'district': 'Đồng Văn', 'ward': 'Thài Phìn Tủng'}
+Expected: {'district': 'Đồng Văn', 'ward': 'Thài Phìn Tủng', 'province': 'Hà Giang'}
+Status: CORRECT
+
+Address: XãBù Gia Mập,,T Bình Phước
+Result: {'province': 'Bình Phước', 'district': '1', 'ward': 'Cô Giang'}
+Expected: {'district': '', 'ward': 'Bù Gia Mập', 'province': 'Bình Phước'}
+Status: INCORRECT
+
+Address: Xã Mỹ Lương Yên Lập 
+Result: {'province': 'Hưng Yên', 'district': '', 'ward': ''}
+Expected: {'district': 'Yên Lập', 'ward': 'Mỹ Lương', 'province': ''}
+Status: INCORRECT
+
+Address: ,H.Nqm Đàn, nghệ An
+Result: {'province': 'Nghệ An', 'district': 'Nam Đàn', 'ward': 'Nam Đàn'}
+Expected: {'district': 'Nam Đàn', 'ward': '', 'province': 'Nghệ An'}
+Status: INCORRECT
+
+Address: , H Nam Trực, Nam Đị8nh
+Result: {'province': 'Nam Định', 'district': 'Nam Trực', 'ward': 'Nam Giang'}
+Expected: {'district': 'Nam Trực', 'ward': '', 'province': 'Nam Định'}
+Status: INCORRECT
+
+Address:  Tam GiangNăm CănT.Cà Mau
+Result: {'province': 'An Giang', 'district': '', 'ward': ''}
+Expected: {'district': 'Năm Căn', 'ward': 'Tam Giang', 'province': 'Cà Mau'}
+Status: INCORRECT
+
+Address:  Huyện Khánh Sơn TKhánh Hòa
+Result: {'province': 'Khánh Hòa', 'district': '', 'ward': ''}
+Expected: {'district': 'Khánh Sơn', 'ward': '', 'province': 'Khánh Hòa'}
+Status: INCORRECT
+
+Address: Xã La Dêê  Quảng Nam
+Result: {'province': 'Quảng Nam', 'district': '', 'ward': ''}
+Expected: {'district': '', 'ward': 'La Dêê', 'province': 'Quảng Nam'}
+Status: INCORRECT
+
+Address: XTân Thạnh, hAn Minh 
+Result: {'province': 'Hoà Bình', 'district': 'Tân Thạnh', 'ward': ''}
+Expected: {'district': 'An Minh', 'ward': 'Tân Thạnh', 'province': ''}
+Status: INCORRECT
+
+Address: X Cam Bình, Thành FhốCam Rah,  Khánh Hòa
+Result: {'province': 'Khánh Hòa', 'district': 'Thanh Hóa', 'ward': 'Ba Đình'}
+Expected: {'district': 'Cam Ranh', 'ward': 'Cam Bình', 'province': 'Khánh Hòa'}
+Status: INCORRECT
+
+Address: X.UThạnh Lợi  TỉnhLong An
+Result: {'province': 'Thanh Hóa', 'district': '', 'ward': ''}
+Expected: {'district': '', 'ward': 'Thạnh Lợi', 'province': 'Long An'}
+Status: INCORRECT
+
+Address:  Minh Tân,h.Lưng Tai,
+Result: {'province': 'Hà Nội', 'district': 'Hoàng Mai', 'ward': 'Thanh Trì'}
+Expected: {'district': 'Lương Tài', 'ward': 'Minh Tân', 'province': ''}
+Status: INCORRECT
+
+Address: XãQuỳn1 Lâm, H. Quỳnh Phụ,  Thai Bình
+Result: {'province': 'Thái Bình', 'district': 'Quỳnh Phụ', 'ward': 'Quỳnh Lâm'}
+Expected: {'district': 'Quỳnh Phụ', 'ward': 'Quỳnh Lâm', 'province': 'Thái Bình'}
+Status: CORRECT
+
+Address: X.Nà Tấu, , T.Điện Biên
+Result: {'province': 'Điện Biên', 'district': '1', 'ward': 'Tân Định'}
+Expected: {'district': '', 'ward': 'Nà Tấu', 'province': 'Điện Biên'}
+Status: INCORRECT
+
+Address: X.Hiep Tung Huyện Năm Căn T.Cà Mau
+Result: {'province': 'Thái Nguyên', 'district': '', 'ward': ''}
+Expected: {'district': 'Năm Căn', 'ward': 'Hiệp Tùng', 'province': 'Cà Mau'}
+Status: INCORRECT
+
+Address: Yên Bình, H fHữu Lũng, Lạng Sơn
+Result: {'province': 'Lạng Sơn', 'district': 'Hữu Lũng', 'ward': 'Yên Bình'}
+Expected: {'district': 'Hữu Lũng', 'ward': 'Yên Bình', 'province': 'Lạng Sơn'}
+Status: CORRECT
+
+Address: P.tự Anm T.PhốBuôn Ma Thuột, T. Đắk Lăk
+Result: {'province': 'Đắk Lắk', 'district': 'Buôn Ma Thuột', 'ward': ''}
+Expected: {'district': 'Buôn Ma Thuột', 'ward': 'Tự An', 'province': 'Đắk Lắk'}
+Status: INCORRECT
+
+Address: X.Đức Bác, Sông Lô,T.Vĩnh Phúc
+Result: {'province': 'Vĩnh Phúc', 'district': 'Sông Lô', 'ward': 'Đức Bác'}
+Expected: {'district': 'Sông Lô', 'ward': 'Đức Bác', 'province': 'Vĩnh Phúc'}
+Status: CORRECT
+
+Address: , HuyệnChâu Thành, TỉnhTiền Giang
+Result: {'province': 'Tiền Giang', 'district': 'Châu Thành', 'ward': 'Châu Thành'}
+Expected: {'district': 'Châu Thành', 'ward': '', 'province': 'Tiền Giang'}
+Status: INCORRECT
+
+Address:  H. Định Quán, Đồng Nai
+Result: {'province': 'Đồng Nai', 'district': 'Định Quán', 'ward': ''}
+Expected: {'district': 'Định Quán', 'ward': '', 'province': 'Đồng Nai'}
+Status: CORRECT
+
+Address:  tPPhổ Yên Tỉnh Thái Nguyên
+Result: {'province': 'Thái Nguyên', 'district': '', 'ward': ''}
+Expected: {'district': 'Phổ Yên', 'ward': '', 'province': 'Thái Nguyên'}
+Status: INCORRECT
+
+Address: X. Hà Hồi H. Thường Tin TPHàNội
+Result: {'province': 'Bà Rịa - Vũng Tàu', 'district': '', 'ward': ''}
+Expected: {'district': 'Thường Tín', 'ward': 'Hà Hồi', 'province': 'Hà Nội'}
+Status: INCORRECT
+
+Address:  Huyện Hiêp Hòa Bắc Giang
+Result: {'province': 'Bắc Giang', 'district': '', 'ward': ''}
+Expected: {'district': 'Hiệp Hòa', 'ward': '', 'province': 'Bắc Giang'}
+Status: INCORRECT
+
+Address:   Đông Giang T Quảyg Nm
+Result: {'province': 'Ninh Thuận', 'district': '', 'ward': ''}
+Expected: {'district': 'Đông Giang', 'ward': '', 'province': 'Quảng Nam'}
+Status: INCORRECT
+
+Address: Sơn Thủy T Quảng Bình
+Result: {'province': 'Quảng Bình', 'district': '', 'ward': ''}
+Expected: {'district': '', 'ward': 'Sơn Thủy', 'province': 'Quảng Bình'}
+Status: INCORRECT
+
+Address: X. Hoằng Lưu, Hoăng Hóa, TỉnhThanh Hóa
+Result: {'province': 'Thanh Hóa', 'district': 'Hoằng Hóa', 'ward': 'Hoằng Lưu'}
+Expected: {'district': 'Hoằng Hóa', 'ward': 'Hoằng Lưu', 'province': 'Thanh Hóa'}
+Status: CORRECT
+
+Address: Xan Tiến, H. An Lão, 
+Result: {'province': 'Hà Nội', 'district': 'An Lão', 'ward': 'An Toàn'}
+Expected: {'district': 'An Lão', 'ward': 'An Tiến', 'province': ''}
+Status: INCORRECT
+
+Address: XGia Hội,h.Văn Chấn,TỉnhYênKBái
+Result: {'province': 'Yên Bái', 'district': 'Văn Chấn', 'ward': 'Gia Hội'}
+Expected: {'district': 'Văn Chấn', 'ward': 'Gia Hội', 'province': 'Yên Bái'}
+Status: CORRECT
+
+Address:  Tam Văn  xLang Chánh  Thanh Hóa
+Result: {'province': 'Thanh Hóa', 'district': '', 'ward': ''}
+Expected: {'district': 'Lang Chánh', 'ward': 'Tam Văn', 'province': 'Thanh Hóa'}
+Status: INCORRECT
+
+Address: X. HoDng Quỳ,,9hanh Hóa
+Result: {'province': 'Thanh Hóa', 'district': '1', 'ward': 'Cô Giang'}
+Expected: {'district': '', 'ward': 'Hoằng Quỳ', 'province': 'Thanh Hóa'}
+Status: INCORRECT
+
+Address: XãBình Chau,  Bình Sơn, Tỉnh Quảng Ngãi
+Result: {'province': 'Quảng Ngãi', 'district': 'Bình Sơn', 'ward': 'Bình Châu'}
+Expected: {'district': 'Bình Sơn', 'ward': 'Bình Châu', 'province': 'Quảng Ngãi'}
+Status: CORRECT
+
+Address: X.Tân Tiến,H.Đồng Phú,
+Result: {'province': 'Hà Nội', 'district': 'Đồng Phú', 'ward': 'Tân Tiến'}
+Expected: {'district': 'Đồng Phú', 'ward': 'Tân Tiến', 'province': ''}
+Status: INCORRECT
+
+Address: FHim Lam   Điện Biê
+Result: {'province': 'Điện Biên', 'district': '', 'ward': ''}
+Expected: {'district': '', 'ward': 'Him Lam', 'province': 'Điện Biên'}
+Status: INCORRECT
+
+Address: PHoà Quý Q.ngũ Hành sơn Đà Nẵng
+Result: {'province': 'Quảng Ninh', 'district': '', 'ward': ''}
+Expected: {'district': 'Ngũ Hành Sơn', 'ward': 'Hoà Quý', 'province': 'Đà Nẵng'}
+Status: INCORRECT
+
+Address:  BảIn Sen H Mường Khương T5Lào Cai
+Result: {'province': 'Bà Rịa - Vũng Tàu', 'district': '', 'ward': ''}
+Expected: {'district': 'Mường Khương', 'ward': 'Bản Sen', 'province': 'Lào Cai'}
+Status: INCORRECT
+
+Address: X Phong Quang, HKuyệnVị Xuyên, Tỉnh Hà Giang
+Result: {'province': 'Hà Giang', 'district': 'Vị Xuyên', 'ward': 'Phong Quang'}
+Expected: {'district': 'Vị Xuyên', 'ward': 'Phong Quang', 'province': 'Hà Giang'}
+Status: CORRECT
+
+Address: XãV Ninh, Kiên Xương,
+Result: {'province': 'Hà Nội', 'district': 'Kiến Xương', 'ward': 'Vũ Ninh'}
+Expected: {'district': 'Kiến Xương', 'ward': 'Vũ Ninh', 'province': ''}
+Status: INCORRECT
+
+Address:  TP Biên Hòa TỉnhĐyng Nai
+Result: {'province': 'Thừa Thiên Huế', 'district': '', 'ward': ''}
+Expected: {'district': 'Biên Hòa', 'ward': '', 'province': 'Đồng Nai'}
+Status: INCORRECT
+
+Address: X. Trà DVưong Bắc Trà My TQuảg Nam
+Result: {'province': 'Bà Rịa - Vũng Tàu', 'district': '', 'ward': ''}
+Expected: {'district': 'Bắc Trà My', 'ward': 'Trà Dương', 'province': 'Quảng Nam'}
+Status: INCORRECT
+
+Address: X.Vĩnh thắng Gò quao T Kiên Giang
+Result: {'province': 'Kiên Giang', 'district': '', 'ward': ''}
+Expected: {'district': 'Gò Quao', 'ward': 'Vĩnh Thắng', 'province': 'Kiên Giang'}
+Status: INCORRECT
+
+Address:  H.Bắc Mê TỉnhHà Giang
+Result: {'province': 'Bắc Giang', 'district': '', 'ward': ''}
+Expected: {'district': 'Bắc Mê', 'ward': '', 'province': 'Hà Giang'}
+Status: INCORRECT
+
+Address: X.Thiết Kế,H.Bá Thước,
+Result: {'province': 'Hà Nội', 'district': 'Bá Thước', 'ward': 'Thiết Kế'}
+Expected: {'district': 'Bá Thước', 'ward': 'Thiết Kế', 'province': ''}
+Status: INCORRECT
+
+Address: Phưng Khâm Thiên Quận Đ.Đa T.Phố HàNội
+Result: {'province': 'Thừa Thiên Huế', 'district': '', 'ward': ''}
+Expected: {'district': 'Đống Đa', 'ward': 'Khâm Thiên', 'province': 'Hà Nội'}
+Status: INCORRECT
+
+Address: X Quỳnh Nuyên,,T. Thái Bình
+Result: {'province': 'Thái Bình', 'district': '1', 'ward': 'Bến Nghé'}
+Expected: {'district': '', 'ward': 'Quỳnh Nguyên', 'province': 'Thái Bình'}
+Status: INCORRECT
+
+Address: XVnh Hung, , T.Thanh Hóa
+Result: {'province': 'Thanh Hóa', 'district': '1', 'ward': 'Tân Định'}
+Expected: {'district': '', 'ward': 'Vĩnh Hùng', 'province': 'Thanh Hóa'}
+Status: INCORRECT
+
+Address: X.Tăng Thanh, H Yên Thành, 
+Result: {'province': 'Hà Nội', 'district': 'Yên Thành', 'ward': 'Tăng Thành'}
+Expected: {'district': 'Yên Thành', 'ward': 'Tăng Thành', 'province': ''}
+Status: INCORRECT
+
+Address: XãTrung Lập,  Vĩnh Bảo,7 
+Result: {'province': 'Hà Nội', 'district': 'Vĩnh Bảo', 'ward': 'Trung Lập'}
+Expected: {'district': 'Vĩnh Bảo', 'ward': 'Trung Lập', 'province': ''}
+Status: INCORRECT
+
+Address: Phường Ngoc Thụy  Thành phốHà Nội
+Result: {'province': 'Hưng Yên', 'district': '', 'ward': ''}
+Expected: {'district': '', 'ward': 'Ngọc Thụy', 'province': 'Hà Nội'}
+Status: INCORRECT
+
+Address: , Huyện Maỹ Lộc, TỉnhD Nam Định
+Result: {'province': 'Nam Định', 'district': 'Xuyên Mộc', 'ward': 'Phước Bửu'}
+Expected: {'district': 'Mỹ Lộc', 'ward': '', 'province': 'Nam Định'}
+Status: INCORRECT
+
+Address: X.Yên Lạc HuyệnNhu Thanh Tỉnh Thanh Hóa
+Result: {'province': 'Thanh Hóa', 'district': '', 'ward': ''}
+Expected: {'district': 'Như Thanh', 'ward': 'Yên Lạc', 'province': 'Thanh Hóa'}
+Status: INCORRECT
+
+Address: TT Qu7 Nhất,,Tỉnh Nam Định
+Result: {'province': 'Nam Định', 'district': '1', 'ward': 'Tân Định'}
+Expected: {'district': '', 'ward': 'Quỹ Nhất', 'province': 'Nam Định'}
+Status: INCORRECT
+
+Address: QX.Tân Hưng Tây, Ph8 Tân,
+Result: {'province': 'Hà Nội', 'district': 'Phú Tân', 'ward': 'Tân Hưng Tây'}
+Expected: {'district': 'Phú Tân', 'ward': 'Tân Hưng Tây', 'province': ''}
+Status: INCORRECT
+
+Address: , Huyện Cẩm Thủy, T.Thanh Hóca
+Result: {'province': 'Thanh Hóa', 'district': 'Cẩm Thủy', 'ward': 'Phong Sơn'}
+Expected: {'district': 'Cẩm Thủy', 'ward': '', 'province': 'Thanh Hóa'}
+Status: INCORRECT
+
+Address: X.Phong Dụ, , Quảng Ninh
+Result: {'province': 'Quảng Ninh', 'district': '1', 'ward': 'Bến Nghé'}
+Expected: {'district': '', 'ward': 'Phong Dụ', 'province': 'Quảng Ninh'}
+Status: INCORRECT
+
+Address: XãPhú Hưng  TBến tre
+Result: {'province': 'Bến Tre', 'district': '', 'ward': ''}
+Expected: {'district': '', 'ward': 'Phú Hưng', 'province': 'Bến Tre'}
+Status: INCORRECT
+
+Address: XAn Thủy Huyện Lệe Thủy TQuảng Bình
+Result: {'province': 'Quảng Bình', 'district': '', 'ward': ''}
+Expected: {'district': 'Lệ Thủy', 'ward': 'An Thủy', 'province': 'Quảng Bình'}
+Status: INCORRECT
+
+Address: XBình PhúN  Càng Long, T.u trà Vinh
+Result: {'province': 'Trà Vinh', 'district': 'Bình Long', 'ward': ''}
+Expected: {'district': 'Càng Long', 'ward': 'Bình Phú', 'province': 'Trà Vinh'}
+Status: INCORRECT
+
+Address: Phưong Thọ Son,T.Phố Việt Trì, Phú Thọ
+Result: {'province': 'Phú Thọ', 'district': 'Việt Trì', 'ward': 'Thọ Sơn'}
+Expected: {'district': 'Việt Trì', 'ward': 'Thọ Sơn', 'province': 'Phú Thọ'}
+Status: CORRECT
+
+Address: XHòa Bqc, HDi Linh, 
+Result: {'province': 'Hà Nội', 'district': 'Di Linh', 'ward': 'Hòa Bắc'}
+Expected: {'district': 'Di Linh', 'ward': 'Hòa Bắc', 'province': ''}
+Status: INCORRECT
+
+Address:  Cộng Hòa,,TỉnhHaOi Dương
+Result: {'province': 'Hải Dương', 'district': '1', 'ward': 'Cô Giang'}
+Expected: {'district': '', 'ward': 'Cộng Hòa', 'province': 'Hải Dương'}
+Status: INCORRECT
+
+Address: Đai TanHuyện Đại ộc,TỉnhQuảng Nam
+Result: {'province': 'Quảng Nam', 'district': 'Hàm Thuận Bắc', 'ward': ''}
+Expected: {'district': 'Đại Lộc', 'ward': 'Đại Tân', 'province': 'Quảng Nam'}
+Status: INCORRECT
+
+Address:  HBảo Lâm 8 Cao Bằng
+Result: {'province': 'Cao Bằng', 'district': '', 'ward': ''}
+Expected: {'district': 'Bảo Lâm', 'ward': '', 'province': 'Cao Bằng'}
+Status: INCORRECT
+
+Address: X. Sin Suối Hồ HPhong Thổ t Lai Châu
+Result: {'province': 'Lai Châu', 'district': '', 'ward': ''}
+Expected: {'district': 'Phong Thổ', 'ward': 'Sin Suối Hồ', 'province': 'Lai Châu'}
+Status: INCORRECT
+
+Address: X Sùng Phài T.P zai Châu T.Lai Châu
+Result: {'province': 'Lai Châu', 'district': '', 'ward': ''}
+Expected: {'district': 'Lai Châu', 'ward': 'Sùng Phài', 'province': 'Lai Châu'}
+Status: INCORRECT
+
+Address:  An Lowng Phú Giáo TBinh Dương
+Result: {'province': 'Bình Dương', 'district': '', 'ward': ''}
+Expected: {'district': 'Phú Giáo', 'ward': 'An Long', 'province': 'Bình Dương'}
+Status: INCORRECT
+
+Address: X Tân7 Thịnh  Yiên Bái T. yên Bái
+Result: {'province': 'Thái Nguyên', 'district': '', 'ward': ''}
+Expected: {'district': 'Yên Bái', 'ward': 'Tân Thịnh', 'province': 'Yên Bái'}
+Status: INCORRECT
+
+Address: XKHoan Sơn,TiênDu,Tỉnhbac Ninh
+Result: {'province': 'Bắc Ninh', 'district': 'Tiên Du', 'ward': 'Hoàn Sơn'}
+Expected: {'district': 'Tiên Du', 'ward': 'Hoàn Sơn', 'province': 'Bắc Ninh'}
+Status: CORRECT
+
+Address:  Hải An  Hải Lăng TQdung trị
+Result: {'province': 'Bà Rịa - Vũng Tàu', 'district': '', 'ward': ''}
+Expected: {'district': 'Hải Lăng', 'ward': 'Hải An', 'province': 'Quảng Trị'}
+Status: INCORRECT
+
+Address:  Tp Hà Tiên Tỉnh Kiên Giang
+Result: {'province': 'Kiên Giang', 'district': '', 'ward': ''}
+Expected: {'district': 'Hà Tiên', 'ward': '', 'province': 'Kiên Giang'}
+Status: INCORRECT
+
+Address: Thị trấn Hai Riêng H Sông Hinh 
+Result: {'province': 'Thừa Thiên Huế', 'district': '', 'ward': ''}
+Expected: {'district': 'Sông Hinh', 'ward': 'Hai Riêng', 'province': ''}
+Status: INCORRECT
+
+Address: X. Diễn Thành Huyện Diên Châu 
+Result: {'province': 'Thừa Thiên Huế', 'district': '', 'ward': ''}
+Expected: {'district': 'Diễn Châu', 'ward': 'Diễn Thành', 'province': ''}
+Status: INCORRECT
+
+Address: ,Bảo Lâ.,Tỉnh Cao Bằng
+Result: {'province': 'Cao Bằng', 'district': 'Bảo Lâm', 'ward': "B' Lá"}
+Expected: {'district': 'Bảo Lâm', 'ward': '', 'province': 'Cao Bằng'}
+Status: INCORRECT
+
+Address: Xã thanh Vĩnh Đông, HuyệnChâu Thành, TLong An
+Result: {'province': 'Long An', 'district': 'Châu Thành', 'ward': 'An Ninh'}
+Expected: {'district': 'Châu Thành', 'ward': 'Thanh Vĩnh Đông', 'province': 'Long An'}
+Status: INCORRECT
+
+Address: X.Chê La,,T.Hà GianZ
+Result: {'province': 'Hà Giang', 'district': '1', 'ward': 'Đa Kao'}
+Expected: {'district': '', 'ward': 'Chế Là', 'province': 'Hà Giang'}
+Status: INCORRECT
+
+Address: Hôno Sỹ  Tỉnh Cao Bằng
+Result: {'province': 'Cao Bằng', 'district': '', 'ward': ''}
+Expected: {'district': '', 'ward': 'Hồng Sỹ', 'province': 'Cao Bằng'}
+Status: INCORRECT
+
+Address: X. Hành Tín Tây  T.Quảng Ngãi
+Result: {'province': 'Quảng Ngãi', 'district': '', 'ward': ''}
+Expected: {'district': '', 'ward': 'Hành Tín Tây', 'province': 'Quảng Ngãi'}
+Status: INCORRECT
+
+Address: F An lac Chí Linh Tỉnh Hải Dương
+Result: {'province': 'Hải Dương', 'district': '', 'ward': ''}
+Expected: {'district': 'Chí Linh', 'ward': 'An Lạc', 'province': 'Hải Dương'}
+Status: INCORRECT
+
+Address: , HXuân Lộc,  Đồng Nai
+Result: {'province': 'Đồng Nai', 'district': 'Xuân Lộc', 'ward': 'Gia Ray'}
+Expected: {'district': 'Xuân Lộc', 'ward': '', 'province': 'Đồng Nai'}
+Status: INCORRECT
+
+Address:  Hòa Lợi,, Trà vinh
+Result: {'province': 'Trà Vinh', 'district': '1', 'ward': 'Đa Kao'}
+Expected: {'district': '', 'ward': 'Hòa Lợi', 'province': 'Trà Vinh'}
+Status: INCORRECT
+
+Address: Phường Hiệ An, T.X.Kinh Môn, TỉnhHải Dương
+Result: {'province': 'Hải Dương', 'district': 'Kinh Môn', 'ward': 'Hiệp An'}
+Expected: {'district': 'Kinh Môn', 'ward': 'Hiệp An', 'province': 'Hải Dương'}
+Status: CORRECT
+
+Address: Xã Trịnh Tường H Bát Xát 
+Result: {'province': 'Bà Rịa - Vũng Tàu', 'district': '', 'ward': ''}
+Expected: {'district': 'Bát Xát', 'ward': 'Trịnh Tường', 'province': ''}
+Status: INCORRECT
+
+Address: XãChiềng Mu5ng  T.stn la
+Result: {'province': 'Tiền Giang', 'district': '', 'ward': ''}
+Expected: {'district': '', 'ward': 'Chiềng Mung', 'province': 'Sơn La'}
+Status: INCORRECT
+
+Address: Fmễ Trì, Nam Từ Liêm, Thành phố HN
+Result: {'province': 'Thanh Hóa', 'district': 'Nam Từ Liêm', 'ward': 'Mễ Trì'}
+Expected: {'district': 'Nam Từ Liêm', 'ward': 'Mễ Trì', 'province': 'Hà Nội'}
+Status: INCORRECT
+
+Address: P4 T.Ph9ốĐông Hà 
+Result: {'province': 'Hải Phòng', 'district': '', 'ward': ''}
+Expected: {'district': 'Đông Hà', 'ward': '4', 'province': ''}
+Status: INCORRECT
+
+Address: F. Trần Hưng Đao,Phủ Ly,TỉnhH  Nam
+Result: {'province': 'Hà Nam', 'district': 'Phủ Lý', 'ward': 'Trần Hưng Đạo'}
+Expected: {'district': 'Phủ Lý', 'ward': 'Trần Hưng Đạo', 'province': 'Hà Nam'}
+Status: CORRECT
+
+Address: Tông Lạnh H.Thuận Chru TSơn La
+Result: {'province': 'Ninh Thuận', 'district': '', 'ward': ''}
+Expected: {'district': 'Thuận Châu', 'ward': 'Tông Lạnh', 'province': 'Sơn La'}
+Status: INCORRECT
+
+Address:  T.PhôSông Công t. Thái Nguyên
+Result: {'province': 'Thái Nguyên', 'district': '', 'ward': ''}
+Expected: {'district': 'Sông Công', 'ward': '', 'province': 'Thái Nguyên'}
+Status: INCORRECT
+
+Address: F.07, Q6, 
+Result: {'province': 'Hà Nội', 'district': '6', 'ward': '07'}
+Expected: {'district': '6', 'ward': '07', 'province': ''}
+Status: INCORRECT
+
+Address: P.Xuân Lam, Thuận Thành, T.Bắc Ninh
+Result: {'province': 'Bắc Ninh', 'district': 'Thuận Thành', 'ward': 'Xuân Lâm'}
+Expected: {'district': 'Thuận Thành', 'ward': 'Xuân Lâm', 'province': 'Bắc Ninh'}
+Status: CORRECT
+
+Address: XãĐông h KBang TGia Lai
+Result: {'province': 'Gia Lai', 'district': '', 'ward': ''}
+Expected: {'district': 'KBang', 'ward': 'Đông', 'province': 'Gia Lai'}
+Status: INCORRECT
+
+Address:  Long Thắng, Huyn Lai ung, 
+Result: {'province': 'Hà Nội', 'district': 'Hạ Lang', 'ward': 'Thắng Lợi'}
+Expected: {'district': 'Lai Vung', 'ward': 'Long Thắng', 'province': ''}
+Status: INCORRECT
+
+Address:  Lưu Sơn, H. Đô Lương, Nghệ An
+Result: {'province': 'Nghệ An', 'district': 'Đô Lương', 'ward': 'Lưu Sơn'}
+Expected: {'district': 'Đô Lương', 'ward': 'Lưu Sơn', 'province': 'Nghệ An'}
+Status: CORRECT
+
+Address:  Chi Lăng,H Chi Lăng,Tỉnh Lạng5 Sơn
+Result: {'province': 'Lạng Sơn', 'district': 'Chi Lăng', 'ward': 'Chi Lăng'}
+Expected: {'district': 'Chi Lăng', 'ward': 'Chi Lăng', 'province': 'Lạng Sơn'}
+Status: CORRECT
+
+Address:  Bằng Lng,,T.Bắc Kạn
+Result: {'province': 'Bắc Kạn', 'district': '1', 'ward': 'Bến Nghé'}
+Expected: {'district': '', 'ward': 'Bằng Lũng', 'province': 'Bắc Kạn'}
+Status: INCORRECT
+
+Address:  Huyệntân biên T.TDy Ninh
+Result: {'province': 'Tây Ninh', 'district': '', 'ward': ''}
+Expected: {'district': 'Tân Biên', 'ward': '', 'province': 'Tây Ninh'}
+Status: INCORRECT
+
+Address:  HuyệnThanh Miện Tỉnh Hải Dương
+Result: {'province': 'Hải Dương', 'district': '', 'ward': ''}
+Expected: {'district': 'Thanh Miện', 'ward': '', 'province': 'Hải Dương'}
+Status: INCORRECT
+
+Address: X. Tân An, HuyệnThnh Hà, 
+Result: {'province': 'Hà Nội', 'district': 'Thanh Hà', 'ward': 'Tân An'}
+Expected: {'district': 'Thanh Hà', 'ward': 'Tân An', 'province': ''}
+Status: INCORRECT
+
+Address: XãtrBung Thanh,,TThanh Hóa
+Result: {'province': 'Thanh Hóa', 'district': '1', 'ward': 'Bến Thành'}
+Expected: {'district': '', 'ward': 'Trung Thành', 'province': 'Thanh Hóa'}
+Status: INCORRECT
+
+Address: vĩnh Hưng, , Long An
+Result: {'province': 'Long An', 'district': '1', 'ward': 'Tân Định'}
+Expected: {'district': '', 'ward': 'Vĩnh Hưng', 'province': 'Long An'}
+Status: INCORRECT
+
+Address: Phường 04,,Thành phốHồ Chi Minh
+Result: {'province': 'Hồ Chí Minh', 'district': '1', 'ward': 'Bến Nghé'}
+Expected: {'district': '', 'ward': '04', 'province': 'Hồ Chí Minh'}
+Status: INCORRECT
+
+Address: Xã Nâm Ntừ  Nậm Pồ 
+Result: {'province': 'Quảng Ninh', 'district': '', 'ward': ''}
+Expected: {'district': 'Nậm Pồ', 'ward': 'Nậm Nhừ', 'province': ''}
+Status: INCORRECT
+
+Address: X Châu Thuận7  TNghệ An
+Result: {'province': 'Nghệ An', 'district': '', 'ward': ''}
+Expected: {'district': '', 'ward': 'Châu Thuận', 'province': 'Nghệ An'}
+Status: INCORRECT
+
+Address: P.Văn Đẩu, qKiến An, ThànhMphố Hải Phòng
+Result: {'province': 'Hải Phòng', 'district': 'Kiến An', 'ward': 'Văn Đẩu'}
+Expected: {'district': 'Kiến An', 'ward': 'Văn Đẩu', 'province': 'Hải Phòng'}
+Status: CORRECT
+
+Address:  Cẩm Lương HCẩm Thủa T. Thanh Hóa
+Result: {'province': 'Thanh Hóa', 'district': '', 'ward': ''}
+Expected: {'district': 'Cẩm Thủy', 'ward': 'Cẩm Lương', 'province': 'Thanh Hóa'}
+Status: INCORRECT
+
+Address: ,HPhú Bình, thái Nguyên
+Result: {'province': 'Thái Nguyên', 'district': 'Phú Bình', 'ward': 'Úc Kỳ'}
+Expected: {'district': 'Phú Bình', 'ward': '', 'province': 'Thái Nguyên'}
+Status: INCORRECT
+
+Address: Phường Hoài Hảo,T.Xã.Hoai Nhơn,TBình Đinh
+Result: {'province': 'Bình Định', 'district': 'Hoài Nhơn', 'ward': 'Hoài Hảo'}
+Expected: {'district': 'Hoài Nhơn', 'ward': 'Hoài Hảo', 'province': 'Bình Định'}
+Status: CORRECT
+
+Address:  Hướng Hiệp  Đa Krông T Quảng TrZ
+Result: {'province': 'Quảng Trị', 'district': '', 'ward': ''}
+Expected: {'district': 'Đa Krông', 'ward': 'Hướng Hiệp', 'province': 'Quảng Trị'}
+Status: INCORRECT
+
+Address: P Ea Tam T.P Buôn Ma Thuột TỉnĐắk Llk
+Result: {'province': 'Thừa Thiên Huế', 'district': '', 'ward': ''}
+Expected: {'district': 'Buôn Ma Thuột', 'ward': 'Ea Tam', 'province': 'Đắk Lắk'}
+Status: INCORRECT
+
+Address: Tân An, H. Vĩnh Cửu, T Đồng Nai
+Result: {'province': 'Đồng Nai', 'district': 'Vĩnh Cửu', 'ward': 'Vĩnh An'}
+Expected: {'district': 'Vĩnh Cửu', 'ward': 'Tân An', 'province': 'Đồng Nai'}
+Status: INCORRECT
+
+Address: F Tân Dân, T.Xã.Nghi Sơn, TỉnhThanh Hóa
+Result: {'province': 'Thanh Hóa', 'district': 'Nghi Sơn', 'ward': 'Tân Dân'}
+Expected: {'district': 'Nghi Sơn', 'ward': 'Tân Dân', 'province': 'Thanh Hóa'}
+Status: CORRECT
+
+Address: XNam Cát, HuyệnNam đàn, 
+Result: {'province': 'Hà Nội', 'district': 'Nam Đàn', 'ward': 'Nam Cát'}
+Expected: {'district': 'Nam Đàn', 'ward': 'Nam Cát', 'province': ''}
+Status: INCORRECT
+
+Address: Xã Vị Tân  Vị Than 
+Result: {'province': 'Vĩnh Phúc', 'district': '', 'ward': ''}
+Expected: {'district': 'Vị Thanh', 'ward': 'Vị Tân', 'province': ''}
+Status: INCORRECT
+
+Address: X My Thành Bac, HuyệnCai Lậy, 
+Result: {'province': 'Hà Nội', 'district': 'Cai Lậy', 'ward': 'Thanh Hòa'}
+Expected: {'district': 'Cai Lậy', 'ward': 'Mỹ Thành Bắc', 'province': ''}
+Status: INCORRECT
+
+Address: XCư Drămb H.Krông Bông 
+Result: {'province': 'Bà Rịa - Vũng Tàu', 'district': '', 'ward': ''}
+Expected: {'district': 'Krông Bông', 'ward': 'Cư Drăm', 'province': ''}
+Status: INCORRECT
+
+Address: X Bình Hi, , T.Quảcg Nam
+Result: {'province': 'Quảng Nam', 'district': '1', 'ward': 'Bến Nghé'}
+Expected: {'district': '', 'ward': 'Bình Hải', 'province': 'Quảng Nam'}
+Status: INCORRECT
+
+Address: XãNân Chính, H Ly Nhân, Tỉnh HaNam
+Result: {'province': 'Thanh Hóa', 'district': 'Lý Nhân', 'ward': 'Nhân Chính'}
+Expected: {'district': 'Lý Nhân', 'ward': 'Nhân Chính', 'province': 'Hà Nam'}
+Status: INCORRECT
+
+Address:  Khả cửu, H. Thanh Srn, 
+Result: {'province': 'Hà Nội', 'district': 'Thanh Sơn', 'ward': 'Khả Cửu'}
+Expected: {'district': 'Thanh Sơn', 'ward': 'Khả Cửu', 'province': ''}
+Status: INCORRECT
+
+Address: , Đông Hòa,Tỉnh Phú yn
+Result: {'province': 'Vĩnh Phúc', 'district': 'Đông Hòa', 'ward': 'Hoà Vinh'}
+Expected: {'district': 'Đông Hòa', 'ward': '', 'province': 'Phú Yên'}
+Status: INCORRECT
+
+Address:  HuyệnĐắk Tô T. KonTum
+Result: {'province': 'Đắk Nông', 'district': '', 'ward': ''}
+Expected: {'district': 'Đắk Tô', 'ward': '', 'province': 'Kon Tum'}
+Status: INCORRECT
+
+Address: Thị Trấn Nông Trường Việt lâm,Vị Xuyen,Ha Giang
+Result: {'province': 'Hà Giang', 'district': 'Vị Xuyên', 'ward': 'Nông Trường Việt Lâm'}
+Expected: {'district': 'Vị Xuyên', 'ward': 'Nông Trường Việt Lâm', 'province': 'Hà Giang'}
+Status: CORRECT
+
+Address: , Q11, Hồ Chí Minh
+Result: {'province': 'Hồ Chí Minh', 'district': '11', 'ward': '15'}
+Expected: {'district': '11', 'ward': '', 'province': 'Hồ Chí Minh'}
+Status: INCORRECT
+
+Address:  H. Đăk Đoa TỉnhGia Lai
+Result: {'province': 'Gia Lai', 'district': '', 'ward': ''}
+Expected: {'district': 'Đăk Đoa', 'ward': '', 'province': 'Gia Lai'}
+Status: INCORRECT
+
+Address: F.LoWng Binh, TpThủ Đưc, TPHCM
+Result: {'province': 'Hà Nam', 'district': 'Thủ Đức', 'ward': 'Long Bình'}
+Expected: {'district': 'Thủ Đức', 'ward': 'Long Bình', 'province': 'Hồ Chí Minh'}
+Status: INCORRECT
+
+Address: Xã Đông cường, h.Đông Hưng, 
+Result: {'province': 'Hà Nội', 'district': 'Đông Hưng', 'ward': 'Đông Cường'}
+Expected: {'district': 'Đông Hưng', 'ward': 'Đông Cường', 'province': ''}
+Status: INCORRECT
+
+Address: XTrung Nghĩa, , THưng Yên
+Result: {'province': 'Hưng Yên', 'district': '1', 'ward': 'Bến Nghé'}
+Expected: {'district': '', 'ward': 'Trung Nghĩa', 'province': 'Hưng Yên'}
+Status: INCORRECT
+
+Address:   Chư Se T Gia Lai
+Result: {'province': 'Gia Lai', 'district': '', 'ward': ''}
+Expected: {'district': 'Chư Sê', 'ward': '', 'province': 'Gia Lai'}
+Status: INCORRECT
+
+Address: X. Hải Minh,,N5am Định
+Result: {'province': 'Nam Định', 'district': '1', 'ward': 'Tân Định'}
+Expected: {'district': '', 'ward': 'Hải Minh', 'province': 'Nam Định'}
+Status: INCORRECT
+
+Address: ,HyệnĐại Lộc,TỉnhQuảng Nam
+Result: {'province': 'Quảng Nam', 'district': 'Đại Lộc', 'ward': 'Ái Nghĩa'}
+Expected: {'district': 'Đại Lộc', 'ward': '', 'province': 'Quảng Nam'}
+Status: INCORRECT
+
+Address: Bạch Lưu, H.Song Lô, Vĩnh PGhúc
+Result: {'province': 'Vĩnh Phúc', 'district': 'Sông Lô', 'ward': 'Bạch Lưu'}
+Expected: {'district': 'Sông Lô', 'ward': 'Bạch Lưu', 'province': 'Vĩnh Phúc'}
+Status: CORRECT
+
+Address: X.Đề Thám  T.Lạng Sơn
+Result: {'province': 'Lạng Sơn', 'district': '', 'ward': ''}
+Expected: {'district': '', 'ward': 'Đề Thám', 'province': 'Lạng Sơn'}
+Status: INCORRECT
+
+Address: PhườngHà Mãn, T.X.Thuận Thành, 
+Result: {'province': 'Hà Nội', 'district': 'Thuận Thành', 'ward': 'Hà Mãn'}
+Expected: {'district': 'Thuận Thành', 'ward': 'Hà Mãn', 'province': ''}
+Status: INCORRECT
+
+Address: Xa Sơn Thy H. Le Thủy Tỉnh Quảng Bình
+Result: {'province': 'Quảng Bình', 'district': '', 'ward': ''}
+Expected: {'district': 'Lệ Thủy', 'ward': 'Sơn Thủy', 'province': 'Quảng Bình'}
+Status: INCORRECT
+
+Address: x. Nam Thai A, AZBiên,Tỉnh Kiên Giang
+Result: {'province': 'Kiên Giang', 'district': 'An Biên', 'ward': 'Nam Thái A'}
+Expected: {'district': 'An Biên', 'ward': 'Nam Thái A', 'province': 'Kiên Giang'}
+Status: CORRECT
+
+Address: P. Quảng Thọ,T.P Sầm Swn,TY. thanh Hóa
+Result: {'province': 'Thanh Hóa', 'district': 'Sầm Sơn', 'ward': 'Quảng Thọ'}
+Expected: {'district': 'Sầm Sơn', 'ward': 'Quảng Thọ', 'province': 'Thanh Hóa'}
+Status: CORRECT
+
+Address:  Đông Htòa Phu Yên
+Result: {'province': 'Thái Nguyên', 'district': '', 'ward': ''}
+Expected: {'district': 'Đông Hòa', 'ward': '', 'province': 'Phú Yên'}
+Status: INCORRECT
+
+Address:  Tam Amnh NZm  Núi Thành TQuảng Nam
+Result: {'province': 'Quảng Nam', 'district': '', 'ward': ''}
+Expected: {'district': 'Núi Thành', 'ward': 'Tam Anh Nam', 'province': 'Quảng Nam'}
+Status: INCORRECT
+
+Address: X Vân Du, , Phú Thọ
+Result: {'province': 'Phú Thọ', 'district': '1', 'ward': 'Tân Định'}
+Expected: {'district': '', 'ward': 'Vân Du', 'province': 'Phú Thọ'}
+Status: INCORRECT
+
+Address: P. Phong CNốc Th,ị xãQuảng Yên t. Quảng Ninh
+Result: {'province': 'Quảng Ninh', 'district': 'Phong Thổ', 'ward': ''}
+Expected: {'district': 'Quảng Yên', 'ward': 'Phong Cốc', 'province': 'Quảng Ninh'}
+Status: INCORRECT
+
+Address: X.An Thuận, , TBến Tre
+Result: {'province': 'Bến Tre', 'district': '1', 'ward': 'Bến Thành'}
+Expected: {'district': '', 'ward': 'An Thuận', 'province': 'Bến Tre'}
+Status: INCORRECT
+
+Address: Nghi Sơ6n, T.X. Nghi Sơn, Thhanh Hóa
+Result: {'province': 'Thanh Hóa', 'district': 'Nghi Sơn', 'ward': 'Nghi Sơn'}
+Expected: {'district': 'Nghi Sơn', 'ward': 'Nghi Sơn', 'province': 'Thanh Hóa'}
+Status: CORRECT
+
+Address: , ThăngFBìh,T. Quảng Nam
+Result: {'province': 'Quảng Nam', 'district': 'Thăng Bình', 'ward': 'Hà Lam'}
+Expected: {'district': 'Thăng Bình', 'ward': '', 'province': 'Quảng Nam'}
+Status: INCORRECT
+
+Address: TT Đạ Tẻh, , T. Lâm Đồng
+Result: {'province': 'Lâm Đồng', 'district': '1', 'ward': 'Tân Định'}
+Expected: {'district': '', 'ward': 'Đạ Tẻh', 'province': 'Lâm Đồng'}
+Status: INCORRECT
+
+Address: TT Hội An,,TAn Giang
+Result: {'province': 'An Giang', 'district': '1', 'ward': 'Cô Giang'}
+Expected: {'district': '', 'ward': 'Hội An', 'province': 'An Giang'}
+Status: INCORRECT
+
+Address: X. TErường Thịnh,h Ứng Hòa, Hà Nội
+Result: {'province': 'Hà Nội', 'district': 'Ứng Hòa', 'ward': 'Trường Thịnh'}
+Expected: {'district': 'Ứng Hòa', 'ward': 'Trường Thịnh', 'province': 'Hà Nội'}
+Status: CORRECT
+
+Address: X.H Mỗ, Đan PhTượng,
+Result: {'province': 'Hà Nội', 'district': 'Đan Phượng', 'ward': 'Hạ Mỗ'}
+Expected: {'district': 'Đan Phượng', 'ward': 'Hạ Mỗ', 'province': ''}
+Status: INCORRECT
+
+Address: Xã Tiến Nông,H Trệu Sơn,T. Thanh Hóa
+Result: {'province': 'Thanh Hóa', 'district': 'Triệu Sơn', 'ward': 'Tiến Nông'}
+Expected: {'district': 'Triệu Sơn', 'ward': 'Tiến Nông', 'province': 'Thanh Hóa'}
+Status: CORRECT
+
+Address: , HuyệnBình Sơn, TQuảng Ngãi
+Result: {'province': 'Quảng Ngãi', 'district': 'Bình Sơn', 'ward': 'Châu Ổ'}
+Expected: {'district': 'Bình Sơn', 'ward': '', 'province': 'Quảng Ngãi'}
+Status: INCORRECT
+
+Address: Xã Quang Tiếns6 Tân Yên, 
+Result: {'province': 'Hà Nội', 'district': 'Quảng Yên', 'ward': ''}
+Expected: {'district': 'Tân Yên', 'ward': 'Quang Tiến', 'province': ''}
+Status: INCORRECT
+
+Address: Thị Trấn Kẻ Sặt H.Binh giang THải Dưong
+Result: {'province': 'Thừa Thiên Huế', 'district': '', 'ward': ''}
+Expected: {'district': 'Bình Giang', 'ward': 'Kẻ Sặt', 'province': 'Hải Dương'}
+Status: INCORRECT
+
+Address: Xã Lương Hòa,HuyệnBen Lức,
+Result: {'province': 'Hà Nội', 'district': 'Bến Lức', 'ward': 'Lương Hòa'}
+Expected: {'district': 'Bến Lức', 'ward': 'Lương Hòa', 'province': ''}
+Status: INCORRECT
+
+Address: X.Tân Son,hchợ QMới,
+Result: {'province': 'Hà Nội', 'district': 'Chợ Mới', 'ward': 'Tấn Mỹ'}
+Expected: {'district': 'Chợ Mới', 'ward': 'Tân Sơn', 'province': ''}
+Status: INCORRECT
+
+Address: Quách Phẩm Bắc, , Cà Mzu
+Result: {'province': 'Cà Mau', 'district': '1', 'ward': 'Nguyễn Thái Bình'}
+Expected: {'district': '', 'ward': 'Quách Phẩm Bắc', 'province': 'Cà Mau'}
+Status: INCORRECT
+
+Address: X Tvực Đạo, , Nam Định
+Result: {'province': 'Nam Định', 'district': '1', 'ward': 'Tân Định'}
+Expected: {'district': '', 'ward': 'Trực Đạo', 'province': 'Nam Định'}
+Status: INCORRECT
+
+Address: Thị trấn Tân Phong, , TThanh Hóa
+Result: {'province': 'Thanh Hóa', 'district': '1', 'ward': 'Tân Định'}
+Expected: {'district': '', 'ward': 'Tân Phong', 'province': 'Thanh Hóa'}
+Status: INCORRECT
+
+Address: X. Lộc Thah,T0P Bảo lộc,TLâm Đông
+Result: {'province': 'Lâm Đồng', 'district': 'Bảo Lộc', 'ward': 'Lộc Thanh'}
+Expected: {'district': 'Bảo Lộc', 'ward': 'Lộc Thanh', 'province': 'Lâm Đồng'}
+Status: CORRECT
+
+Address: X Đương Hoa  TQuảng Ninh
+Result: {'province': 'Quảng Ninh', 'district': '', 'ward': ''}
+Expected: {'district': '', 'ward': 'Đường Hoa', 'province': 'Quảng Ninh'}
+Status: INCORRECT
+
+Address: xã Vạn Kim, HuyệnMỹ Đức, T.P HNội
+Result: {'province': 'Hà Nội', 'district': 'Mỹ Đức', 'ward': 'Vạn Kim'}
+Expected: {'district': 'Mỹ Đức', 'ward': 'Vạn Kim', 'province': 'Hà Nội'}
+Status: CORRECT
+
+Address: XMiền Đồi,LaZc Sơn,
+Result: {'province': 'Hà Nội', 'district': 'Lạc Sơn', 'ward': 'Miền Đồi'}
+Expected: {'district': 'Lạc Sơn', 'ward': 'Miền Đồi', 'province': ''}
+Status: INCORRECT
+
+Address: X Phu Mãn   HN
+Result: {'province': 'Hồ Chí Minh', 'district': '', 'ward': ''}
+Expected: {'district': '', 'ward': 'Phú Mãn', 'province': 'Hà Nội'}
+Status: INCORRECT
+
+Address:  H. Hồng Ngự T Đồng Thap
+Result: {'province': 'Đồng Tháp', 'district': '', 'ward': ''}
+Expected: {'district': 'Hồng Ngự', 'ward': '', 'province': 'Đồng Tháp'}
+Status: INCORRECT
+
+Address: X Mường Lèo H Sốp Cộp T Sơn ma
+Result: {'province': 'Lạng Sơn', 'district': '', 'ward': ''}
+Expected: {'district': 'Sốp Cộp', 'ward': 'Mường Lèo', 'province': 'Sơn La'}
+Status: INCORRECT
+
+Address:  Huyện Chợ gạo Tỉ,nh Tiền Giang
+Result: {'province': 'Tiền Giang', 'district': 'Chợ Gạo', 'ward': ''}
+Expected: {'district': 'Chợ Gạo', 'ward': '', 'province': 'Tiền Giang'}
+Status: CORRECT
+
+Address: Xã Tam Xuân I Huyệnúi Thành Quảng Nam
+Result: {'province': 'Tuyên Quang', 'district': '', 'ward': ''}
+Expected: {'district': 'Núi Thành', 'ward': 'Tam Xuân I', 'province': 'Quảng Nam'}
+Status: INCORRECT
+
+Address: ,  Mỹ Đức, HàNội
+Result: {'province': 'Hà Nội', 'district': 'Mỹ Đức', 'ward': 'An Mỹ'}
+Expected: {'district': 'Mỹ Đức', 'ward': '', 'province': 'Hà Nội'}
+Status: INCORRECT
+
+Address: J,Huyệnđô Lương,Tỉnh Nghệ An
+Result: {'province': 'Nghệ An', 'district': 'Đô Lương', 'ward': 'Đô Lương'}
+Expected: {'district': 'Đô Lương', 'ward': '', 'province': 'Nghệ An'}
+Status: INCORRECT
+
+Address: XTâm Thsắng Cư Jút TỉnhĐắk Nông
+Result: {'province': 'Đắk Nông', 'district': '', 'ward': ''}
+Expected: {'district': 'Cư Jút', 'ward': 'Tâm Thắng', 'province': 'Đắk Nông'}
+Status: INCORRECT
+
+Address: Tích Sơn T.Phốvinh Yên t vĩnh phúc
+Result: {'province': 'Thừa Thiên Huế', 'district': '', 'ward': ''}
+Expected: {'district': 'Vĩnh Yên', 'ward': 'Tích Sơn', 'province': 'Vĩnh Phúc'}
+Status: INCORRECT
+
+Address: X.Hòa Trị Huzyen hú Hoa TPhú Yên
+Result: {'province': 'Thừa Thiên Huế', 'district': '', 'ward': ''}
+Expected: {'district': 'Phú Hoà', 'ward': 'Hòa Trị', 'province': 'Phú Yên'}
+Status: INCORRECT
+
+Address: XLa Sơn H. Binh lục 
+Result: {'province': 'Ninh Bình', 'district': '', 'ward': ''}
+Expected: {'district': 'Bình Lục', 'ward': 'La Sơn', 'province': ''}
+Status: INCORRECT
+
+Address: F. Điện Nam Bắc, x TQuảng Nam
+Result: {'province': 'Quảng Nam', 'district': 'Điện Bàn', 'ward': ''}
+Expected: {'district': '', 'ward': 'Điện Nam Bắc', 'province': 'Quảng Nam'}
+Status: INCORRECT
+
+Address: ,H Krông Năng,Đắk Lắk
+Result: {'province': 'Đắk Lắk', 'district': 'Krông Năng', 'ward': 'Ea Hồ'}
+Expected: {'district': 'Krông Năng', 'ward': '', 'province': 'Đắk Lắk'}
+Status: INCORRECT
+
+Address: X. Bok Tới H Hoài Ân  Bìh Định
+Result: {'province': 'Hoà Bình', 'district': '', 'ward': ''}
+Expected: {'district': 'Hoài Ân', 'ward': 'Bok Tới', 'province': 'Bình Định'}
+Status: INCORRECT
+
+Address: XTân Nghia  Di Linh Lâm ĐồnG
+Result: {'province': 'Lâm Đồng', 'district': '', 'ward': ''}
+Expected: {'district': 'Di Linh', 'ward': 'Tân Nghĩa', 'province': 'Lâm Đồng'}
+Status: INCORRECT
+
+Address: Bình Sa HuyệnThăng Bình 
+Result: {'province': 'Ninh Bình', 'district': '', 'ward': ''}
+Expected: {'district': 'Thăng Bình', 'ward': 'Bình Sa', 'province': ''}
+Status: INCORRECT
+
+Address: ,H Bắc Son,TỉnhLạng Son
+Result: {'province': 'Lạng Sơn', 'district': 'Bắc Sơn', 'ward': 'Bắc Sơn'}
+Expected: {'district': 'Bắc Sơn', 'ward': '', 'province': 'Lạng Sơn'}
+Status: INCORRECT
+
+Address: xTân Lập, H Vũ Thư, Thái bình
+Result: {'province': 'Thái Bình', 'district': 'Vũ Thư', 'ward': 'Tân Lập'}
+Expected: {'district': 'Vũ Thư', 'ward': 'Tân Lập', 'province': 'Thái Bình'}
+Status: CORRECT
+
+Address: Tinh Nhu Huyện Thanh Sơn Tỉnh Phú Tho
+Result: {'province': 'Thừa Thiên Huế', 'district': '', 'ward': ''}
+Expected: {'district': 'Thanh Sơn', 'ward': 'Tinh Nhuệ', 'province': 'Phú Thọ'}
+Status: INCORRECT
+
+Address: XãGia Vượng, Gia Viễn, 
+Result: {'province': 'Hà Nội', 'district': 'Gia Viễn', 'ward': 'Gia Vượng'}
+Expected: {'district': 'Gia Viễn', 'ward': 'Gia Vượng', 'province': ''}
+Status: INCORRECT
+
+Address:  Hợp đức, , Tp Hải Phòng
+Result: {'province': 'Hải Phòng', 'district': '1', 'ward': 'Tân Định'}
+Expected: {'district': '', 'ward': 'Hợp Đức', 'province': 'Hải Phòng'}
+Status: INCORRECT
+
+Address: Thị trấnSông Đốc, , TnhCà Mau
+Result: {'province': 'Cà Mau', 'district': '1', 'ward': 'Cầu Ông Lãnh'}
+Expected: {'district': '', 'ward': 'Sông Đốc', 'province': 'Cà Mau'}
+Status: INCORRECT
+
+Address: ,H.Trảng Bom,Đồng Nai
+Result: {'province': 'Đồng Nai', 'district': 'Trảng Bom', 'ward': 'Trảng Bom'}
+Expected: {'district': 'Trảng Bom', 'ward': '', 'province': 'Đồng Nai'}
+Status: INCORRECT
+
+Address: X Vĩnh Hanh, Châu Thành,An Giang
+Result: {'province': 'An Giang', 'district': 'Châu Thành', 'ward': 'An Ninh'}
+Expected: {'district': 'Châu Thành', 'ward': 'Vĩnh Hanh', 'province': 'An Giang'}
+Status: INCORRECT
+
+Address: X.Yên Phong  Tỉnh Bắc Kạn
+Result: {'province': 'Bắc Kạn', 'district': '', 'ward': ''}
+Expected: {'district': '', 'ward': 'Yên Phong', 'province': 'Bắc Kạn'}
+Status: INCORRECT
+
+Address: P. Nhi Thu Thị xã Cửa Lò TNghệ An
+Result: {'province': 'Nghệ An', 'district': '', 'ward': ''}
+Expected: {'district': 'Cửa Lò', 'ward': 'Nghi Thu', 'province': 'Nghệ An'}
+Status: INCORRECT
+
+Address: F.Dịch Vọng  C/Giấy Thành phốHàNội
+Result: {'province': 'Ninh Thuận', 'district': '', 'ward': ''}
+Expected: {'district': 'Cầu Giấy', 'ward': 'Dịch Vọng', 'province': 'Hà Nội'}
+Status: INCORRECT
+
+Address: Xã Minh thuận HuyệnU Minh Thượng TỉnhKiên Giang
+Result: {'province': 'Kiên Giang', 'district': '', 'ward': ''}
+Expected: {'district': 'U Minh Thượng', 'ward': 'Minh Thuận', 'province': 'Kiên Giang'}
+Status: INCORRECT
+
+Address:  Ea Huar,HuyệnBuôn Đôn,
+Result: {'province': 'Hà Nội', 'district': 'Buôn Đôn', 'ward': 'Ea Huar'}
+Expected: {'district': 'Buôn Đôn', 'ward': 'Ea Huar', 'province': ''}
+Status: INCORRECT
+
+Address: X.SRó  Kông Chro T.Gia Lai
+Result: {'province': 'Gia Lai', 'district': '', 'ward': ''}
+Expected: {'district': 'Kông Chro', 'ward': 'SRó', 'province': 'Gia Lai'}
+Status: INCORRECT
+
+Address: X Tân Thanh Huyện Lang Giang 
+Result: {'province': 'Tuyên Quang', 'district': '', 'ward': ''}
+Expected: {'district': 'Lạng Giang', 'ward': 'Tân Thanh', 'province': ''}
+Status: INCORRECT
+
+Address: X. Sơn Hv HSơn Hoa Tỉnh Phú Yên
+Result: {'province': 'Vĩnh Phúc', 'district': '', 'ward': ''}
+Expected: {'district': 'Sơn Hòa', 'ward': 'Sơn Hội', 'province': 'Phú Yên'}
+Status: INCORRECT
+
+Address: Xã Bản My H..Hoàng Su Phì T.Hà Giang
+Result: {'province': 'Hà Giang', 'district': '', 'ward': ''}
+Expected: {'district': 'Hoàng Su Phì', 'ward': 'Bản Máy', 'province': 'Hà Giang'}
+Status: INCORRECT
+
+Address: Công Hòa H.Kim Thành 
+Result: {'province': 'Nam Định', 'district': '', 'ward': ''}
+Expected: {'district': 'Kim Thành', 'ward': 'Cộng Hòa', 'province': ''}
+Status: INCORRECT
+
+Address: XãChơ Chun, H NamiGiang, T.Quảng Nam
+Result: {'province': 'Quảng Nam', 'district': 'Nam Giang', 'ward': 'Chơ Chun'}
+Expected: {'district': 'Nam Giang', 'ward': 'Chơ Chun', 'province': 'Quảng Nam'}
+Status: CORRECT
+
+Address: X.Vô Tranh, hLục Nam, Bắc Giang
+Result: {'province': 'Bắc Giang', 'district': 'Lục Nam', 'ward': 'Vô Tranh'}
+Expected: {'district': 'Lục Nam', 'ward': 'Vô Tranh', 'province': 'Bắc Giang'}
+Status: CORRECT
+
+Address: Bù Gia Map,H Bù Gia Mập,Bình Phước
+Result: {'province': 'Bình Phước', 'district': 'Bù Gia Mập', 'ward': 'Bù Gia Mập'}
+Expected: {'district': 'Bù Gia Mập', 'ward': 'Bù Gia Mập', 'province': 'Bình Phước'}
+Status: CORRECT
+
+Address:   Quỳ Châu T.NSghệ An
+Result: {'province': 'Nghệ An', 'district': '', 'ward': ''}
+Expected: {'district': 'Quỳ Châu', 'ward': '', 'province': 'Nghệ An'}
+Status: INCORRECT
+
+Address:  H.Văn Giang Tỉnh Hưng Yê0
+Result: {'province': 'Hà Giang', 'district': '', 'ward': ''}
+Expected: {'district': 'Văn Giang', 'ward': '', 'province': 'Hưng Yên'}
+Status: INCORRECT
+
+Address: x.Ba tiêu,  Ba Tơ, Quảng Ngãi
+Result: {'province': 'Quảng Ngãi', 'district': 'Ba Tơ', 'ward': 'Ba Tiêu'}
+Expected: {'district': 'Ba Tơ', 'ward': 'Ba Tiêu', 'province': 'Quảng Ngãi'}
+Status: CORRECT
+
+Address: Xã Tân Kiên Hbình Chánh Thành phôHôChíMinh
+Result: {'province': 'Hồ Chí Minh', 'district': '', 'ward': ''}
+Expected: {'district': 'Bình Chánh', 'ward': 'Tân Kiên', 'province': 'Hồ Chí Minh'}
+Status: INCORRECT
+
+Address:  H.Thanh Liêm T.Ha Nam
+Result: {'province': 'Thanh Hóa', 'district': '', 'ward': ''}
+Expected: {'district': 'Thanh Liêm', 'ward': '', 'province': 'Hà Nam'}
+Status: INCORRECT
+
+Address:   Chí Linh  Hải Dương
+Result: {'province': 'Hải Dương', 'district': '', 'ward': ''}
+Expected: {'district': 'Chí Linh', 'ward': '', 'province': 'Hải Dương'}
+Status: INCORRECT
+
+Address: X. Tam Đồng,HuyệnMê Linh,T.Phw HàNoi
+Result: {'province': 'Hà Nội', 'district': 'Mê Linh', 'ward': 'Tam Đồng'}
+Expected: {'district': 'Mê Linh', 'ward': 'Tam Đồng', 'province': 'Hà Nội'}
+Status: CORRECT
+
+Address:  eăn Tiến, Yên Lạc, vĩnh P0húc
+Result: {'province': 'Vĩnh Phúc', 'district': 'Yên Lạc', 'ward': 'Văn Tiến'}
+Expected: {'district': 'Yên Lạc', 'ward': 'Văn Tiến', 'province': 'Vĩnh Phúc'}
+Status: CORRECT
+
+Address: F. An Phú T.X. Tịnh Biên T.An Giang
+Result: {'province': 'Tiền Giang', 'district': '', 'ward': ''}
+Expected: {'district': 'Tịnh Biên', 'ward': 'An Phú', 'province': 'An Giang'}
+Status: INCORRECT
+
+Address: X.Cẩm Hoàng,,T. Hải Dươnwg
+Result: {'province': 'Hải Dương', 'district': '1', 'ward': 'Cô Giang'}
+Expected: {'district': '', 'ward': 'Cẩm Hoàng', 'province': 'Hải Dương'}
+Status: INCORRECT
+
+Address: X. Cat Chánh,HuyệnPhù Cát,
+Result: {'province': 'Hà Nội', 'district': 'Phù Cát', 'ward': 'Cát Chánh'}
+Expected: {'district': 'Phù Cát', 'ward': 'Cát Chánh', 'province': ''}
+Status: INCORRECT
+
+Address:  Ea Kmút,hyệnea Kar,Tỉnwh Đắk Lắk
+Result: {'province': 'Đắk Lắk', 'district': 'Ea Kar', 'ward': 'Ea Kar'}
+Expected: {'district': 'Ea Kar', 'ward': 'Ea Kmút', 'province': 'Đắk Lắk'}
+Status: INCORRECT
+
+Address: Xã 7Sơn Hà HuyệnNho Quan Tinh Ninh Bình
+Result: {'province': 'Ninh Bình', 'district': '', 'ward': ''}
+Expected: {'district': 'Nho Quan', 'ward': 'Sơn Hà', 'province': 'Ninh Bình'}
+Status: INCORRECT
+
+Address: X.Mỹ Thạnh, HuyệnGiong Trôm, TỉnhBến Tre
+Result: {'province': 'Bến Tre', 'district': 'Giồng Trôm', 'ward': 'Mỹ Thạnh'}
+Expected: {'district': 'Giồng Trôm', 'ward': 'Mỹ Thạnh', 'province': 'Bến Tre'}
+Status: CORRECT
+
+Address: Xã C.hâu Minh, HHiệp Ha, TBắc Giang
+Result: {'province': 'Bắc Giang', 'district': 'Hiệp Hòa', 'ward': 'Châu Minh'}
+Expected: {'district': 'Hiệp Hòa', 'ward': 'Châu Minh', 'province': 'Bắc Giang'}
+Status: CORRECT
+
+Address: Xthịnh Vượng,A , TG.Cao băng
+Result: {'province': 'Cao Bằng', 'district': '1', 'ward': 'Tân Định'}
+Expected: {'district': '', 'ward': 'Thịnh Vượng', 'province': 'Cao Bằng'}
+Status: INCORRECT
+
+Address: Diên Thạnh,,T Khabnh Hòa
+Result: {'province': 'Thanh Hóa', 'district': '1', 'ward': 'Bến Thành'}
+Expected: {'district': '', 'ward': 'Diên Thạnh', 'province': 'Khánh Hòa'}
+Status: INCORRECT
+
+Address: X.Việt Hồng, , TrHà Giang
+Result: {'province': 'Hà Giang', 'district': '1', 'ward': 'Bến Thành'}
+Expected: {'district': '', 'ward': 'Việt Hồng', 'province': 'Hà Giang'}
+Status: INCORRECT
+
+Address: X.Đức Sơn Anh Sơn 
+Result: {'province': 'Lạng Sơn', 'district': '', 'ward': ''}
+Expected: {'district': 'Anh Sơn', 'ward': 'Đức Sơn', 'province': ''}
+Status: INCORRECT
+
+Address: Đăk Nang H. Krông Nô TĐắk Nông
+Result: {'province': 'Đắk Nông', 'district': '', 'ward': ''}
+Expected: {'district': 'Krông Nô', 'ward': 'Đắk Nang', 'province': 'Đắk Nông'}
+Status: INCORRECT
+
+Address: X.Điện Hồng,Thị xã Điện Bàn,t Quảng Nam
+Result: {'province': 'Quảng Nam', 'district': 'Điện Bàn', 'ward': 'Điện Hồng'}
+Expected: {'district': 'Điện Bàn', 'ward': 'Điện Hồng', 'province': 'Quảng Nam'}
+Status: CORRECT
+
+Address: , H Duy Xuyên, T.Quảng Nam
+Result: {'province': 'Quảng Nam', 'district': 'Duy Xuyên', 'ward': 'Nam Phước'}
+Expected: {'district': 'Duy Xuyên', 'ward': '', 'province': 'Quảng Nam'}
+Status: INCORRECT
+
+Address: Đứ Lợi,H Mộ Đức,TỉnhQuản Ngãi
+Result: {'province': 'Quảng Ngãi', 'district': 'Mộ Đức', 'ward': 'Đức Lợi'}
+Expected: {'district': 'Mộ Đức', 'ward': 'Đức Lợi', 'province': 'Quảng Ngãi'}
+Status: CORRECT
+
+Address: PhườngNguyễn Trãi, T.P Kon Tum, T Kon Tum
+Result: {'province': 'Kon Tum', 'district': 'Kon Tum', 'ward': 'Nguyễn Trãi'}
+Expected: {'district': 'Kon Tum', 'ward': 'Nguyễn Trãi', 'province': 'Kon Tum'}
+Status: CORRECT
+
+Address: X Song Lộc H.Châu Thành 
+Result: {'province': 'Lai Châu', 'district': '', 'ward': ''}
+Expected: {'district': 'Châu Thành', 'ward': 'Song Lộc', 'province': ''}
+Status: INCORRECT
+
+Address: Lộc Châu,TPBảo Lộc,T Lâm Đồng
+Result: {'province': 'Lâm Đồng', 'district': 'Bảo Lộc', 'ward': 'Lộc Phát'}
+Expected: {'district': 'Bảo Lộc', 'ward': 'Lộc Châu', 'province': 'Lâm Đồng'}
+Status: INCORRECT
+
+Address: X. Bản Nguyen,HuyệnLâm Thao,
+Result: {'province': 'Hà Nội', 'district': 'Lâm Thao', 'ward': 'Bản Nguyên'}
+Expected: {'district': 'Lâm Thao', 'ward': 'Bản Nguyên', 'province': ''}
+Status: INCORRECT
+
+Address: Phương Công,huyen Tiền Hải,T.Thái Bình
+Result: {'province': 'Thái Bình', 'district': 'Tiền Hải', 'ward': 'Phương Công'}
+Expected: {'district': 'Tiền Hải', 'ward': 'Phương Công', 'province': 'Thái Bình'}
+Status: CORRECT
+
+Address: X Lương Nghĩa,H. Long Mỹ,T. Hậu giangg
+Result: {'province': 'Hậu Giang', 'district': 'Long Mỹ', 'ward': 'Lương Nghĩa'}
+Expected: {'district': 'Long Mỹ', 'ward': 'Lương Nghĩa', 'province': 'Hậu Giang'}
+Status: CORRECT
+
+Address: X Tây Yên, H.An Biên, TKiên Giang
+Result: {'province': 'Kiên Giang', 'district': 'An Biên', 'ward': 'Tây Yên'}
+Expected: {'district': 'An Biên', 'ward': 'Tây Yên', 'province': 'Kiên Giang'}
+Status: CORRECT
+
+Address: Xã Kiên Thành H Trấn Yên T.yên Bi
+Result: {'province': 'Thái Nguyên', 'district': '', 'ward': ''}
+Expected: {'district': 'Trấn Yên', 'ward': 'Kiên Thành', 'province': 'Yên Bái'}
+Status: INCORRECT
+
+Address:  Duy Phú,  Duy Xuyen,  Quang Nam
+Result: {'province': 'Quảng Nam', 'district': 'Duy Xuyên', 'ward': 'Duy Phú'}
+Expected: {'district': 'Duy Xuyên', 'ward': 'Duy Phú', 'province': 'Quảng Nam'}
+Status: CORRECT
+
+Address: XPhước Vĩnh Đông  Cần Giuộc T. Long An
+Result: {'province': 'Vĩnh Long', 'district': '', 'ward': ''}
+Expected: {'district': 'Cần Giuộc', 'ward': 'Phước Vĩnh Đông', 'province': 'Long An'}
+Status: INCORRECT
+
+Address: XThạch Xuâ,Thạch Hà,T. Hà Tĩnh
+Result: {'province': 'Hà Tĩnh', 'district': 'Thạch Hà', 'ward': 'Thạch Xuân'}
+Expected: {'district': 'Thạch Hà', 'ward': 'Thạch Xuân', 'province': 'Hà Tĩnh'}
+Status: CORRECT
+
+Address:  Quận 1 T.P H.C.Minh
+Result: {'province': 'Quảng Ninh', 'district': '', 'ward': ''}
+Expected: {'district': '1', 'ward': '', 'province': 'Hồ Chí Minh'}
+Status: INCORRECT
+
+Address: Sín Chéng,HuyệnSi Ma Cai,TỉnhLào Cai
+Result: {'province': 'Lào Cai', 'district': 'Si Ma Cai', 'ward': 'Sín Chéng'}
+Expected: {'district': 'Si Ma Cai', 'ward': 'Sín Chéng', 'province': 'Lào Cai'}
+Status: CORRECT
+
+Address: XDuy Hải  TQuảng Nam
+Result: {'province': 'Quảng Nam', 'district': '', 'ward': ''}
+Expected: {'district': '', 'ward': 'Duy Hải', 'province': 'Quảng Nam'}
+Status: INCORRECT
+
+Address: ,H.Tuy An,Tinh Phú yên
+Result: {'province': 'Phú Yên', 'district': 'Tuy An', 'ward': 'An Cư'}
+Expected: {'district': 'Tuy An', 'ward': '', 'province': 'Phú Yên'}
+Status: INCORRECT
+
+Address: x. Văn Cẩs HuyệnHung Hà Tthái Bình
+Result: {'province': 'Thái Bình', 'district': '', 'ward': ''}
+Expected: {'district': 'Hưng Hà', 'ward': 'Văn Cẩm', 'province': 'Thái Bình'}
+Status: INCORRECT
+
+Address: , Mường La,  sơn La
+Result: {'province': 'Sơn La', 'district': 'Mường La', 'ward': 'Ít Ong'}
+Expected: {'district': 'Mường La', 'ward': '', 'province': 'Sơn La'}
+Status: INCORRECT
+
+Address: oã Bnh Ngọc,T.Phố Tuy Hoà,Tỉnhphú Yên
+Result: {'province': 'Phú Yên', 'district': 'Tuy Hoà', 'ward': 'Bình Ngọc'}
+Expected: {'district': 'Tuy Hoà', 'ward': 'Bình Ngọc', 'province': 'Phú Yên'}
+Status: CORRECT
+
+Address:  Chương Dương, HuyệnĐôngHưng, 
+Result: {'province': 'Hà Nội', 'district': 'Đông Hưng', 'ward': 'Chương Dương'}
+Expected: {'district': 'Đông Hưng', 'ward': 'Chương Dương', 'province': ''}
+Status: INCORRECT
+
+Address: Nậm Tin  Diện Biên
+Result: {'province': 'Điện Biên', 'district': '', 'ward': ''}
+Expected: {'district': '', 'ward': 'Nậm Tin', 'province': 'Điện Biên'}
+Status: INCORRECT
+
+Address:  T.P Phan Rang-Tháp lhàm  Ninh Thuận
+Result: {'province': 'Ninh Thuận', 'district': '', 'ward': ''}
+Expected: {'district': 'Phan Rang-Tháp Chàm', 'ward': '', 'province': 'Ninh Thuận'}
+Status: INCORRECT
+
+Address: , Tân Phươc, Tin GJiang
+Result: {'province': 'Tiền Giang', 'district': 'Tân Phước', 'ward': 'Mỹ Phước'}
+Expected: {'district': 'Tân Phước', 'ward': '', 'province': 'Tiền Giang'}
+Status: INCORRECT
+
+Address: X An Đức, Huyên Ninh Giang, T.Hải Dương
+Result: {'province': 'Hải Dương', 'district': 'Ninh Giang', 'ward': 'An Đức'}
+Expected: {'district': 'Ninh Giang', 'ward': 'An Đức', 'province': 'Hải Dương'}
+Status: CORRECT
+
+Address: XTrung Kiên,,Tỉnh Vĩnh Phuúc
+Result: {'province': 'Vĩnh Phúc', 'district': '1', 'ward': 'Tân Định'}
+Expected: {'district': '', 'ward': 'Trung Kiên', 'province': 'Vĩnh Phúc'}
+Status: INCORRECT
+
+Address: X. Đông Lâm2, Huyen Tiền Hải, T.Thái Bình
+Result: {'province': 'Thái Bình', 'district': 'Tiền Hải', 'ward': 'Đông Lâm'}
+Expected: {'district': 'Tiền Hải', 'ward': 'Đông Lâm', 'province': 'Thái Bình'}
+Status: CORRECT
+
+Address:  H. Ea Súp  Đắk Lắk
+Result: {'province': 'Đắk Lắk', 'district': '', 'ward': ''}
+Expected: {'district': 'Ea Súp', 'ward': '', 'province': 'Đắk Lắk'}
+Status: INCORRECT
+
+Address:  Đức Lĩnh,Vũ Quang,
+Result: {'province': 'Hà Nội', 'district': 'Vũ Quang', 'ward': 'Đức Lĩnh'}
+Expected: {'district': 'Vũ Quang', 'ward': 'Đức Lĩnh', 'province': ''}
+Status: INCORRECT
+
+Address: XQuỳnh Hôi, Quỳnh Phụ, Thái Bình
+Result: {'province': 'Thái Bình', 'district': 'Quỳnh Phụ', 'ward': 'Quỳnh Côi'}
+Expected: {'district': 'Quỳnh Phụ', 'ward': 'Quỳnh Hội', 'province': 'Thái Bình'}
+Status: INCORRECT
+
+Address:  Yn phú, HBắc Mê, TỉnhV Hà giang
+Result: {'province': 'Hà Giang', 'district': 'Bắc Mê', 'ward': 'Yên Phú'}
+Expected: {'district': 'Bắc Mê', 'ward': 'Yên Phú', 'province': 'Hà Giang'}
+Status: CORRECT
+
+Address: Xuân Tân t.P Long Khánh 
+Result: {'province': 'Quảng Ninh', 'district': '', 'ward': ''}
+Expected: {'district': 'Long Khánh', 'ward': 'Xuân Tân', 'province': ''}
+Status: INCORRECT
+
+Address: Xia Ake, HuyệnPhú Thiện, TGia Lai
+Result: {'province': 'Gia Lai', 'district': 'Phú Thiện', 'ward': 'Ia Ake'}
+Expected: {'district': 'Phú Thiện', 'ward': 'Ia Ake', 'province': 'Gia Lai'}
+Status: CORRECT
+
+Address: X.Thái Sơn, An Lão, hải Phòng
+Result: {'province': 'Hải Phòng', 'district': 'An Lão', 'ward': 'An Tân'}
+Expected: {'district': 'An Lão', 'ward': 'Thái Sơn', 'province': 'Hải Phòng'}
+Status: INCORRECT
+
+Address: Xã Uar, Krông Pa, Tỉnh Gia Lai
+Result: {'province': 'Gia Lai', 'district': 'Krông Pa', 'ward': 'Uar'}
+Expected: {'district': 'Krông Pa', 'ward': 'Uar', 'province': 'Gia Lai'}
+Status: CORRECT
+
+Address:  H Ea H'leo T Đắk Lắk
+Result: {'province': 'Đắk Lắk', 'district': '', 'ward': ''}
+Expected: {'district': "Ea H'leo", 'ward': '', 'province': 'Đắk Lắk'}
+Status: INCORRECT
+
+Address: Phú Đô HuyệnPhú Lươnz 
+Result: {'province': 'Phú Yên', 'district': '', 'ward': ''}
+Expected: {'district': 'Phú Lương', 'ward': 'Phú Đô', 'province': ''}
+Status: INCORRECT
+
+Address:  Thái Ha, HBa Vì, T.pHNội
+Result: {'province': 'Hà Nội', 'district': 'Ba Vì', 'ward': 'Thái Hòa'}
+Expected: {'district': 'Ba Vì', 'ward': 'Thái Hòa', 'province': 'Hà Nội'}
+Status: CORRECT
+
+Address: X.Phước Hiệp  Tỉnh Bến Tre
+Result: {'province': 'Bến Tre', 'district': '', 'ward': ''}
+Expected: {'district': '', 'ward': 'Phước Hiệp', 'province': 'Bến Tre'}
+Status: INCORRECT
+
+Address: XHuy Hạ,  phù Yêu, T.Sơn La
+Result: {'province': 'Sơn La', 'district': 'Phù Yên', 'ward': 'Huy Hạ'}
+Expected: {'district': 'Phù Yên', 'ward': 'Huy Hạ', 'province': 'Sơn La'}
+Status: CORRECT
+
+Address: TTr.Quỳnh Côi,HQuỳnh Phụ,TThai Bình
+Result: {'province': 'Thái Bình', 'district': 'Quỳnh Phụ', 'ward': 'Quỳnh Côi'}
+Expected: {'district': 'Quỳnh Phụ', 'ward': 'Quỳnh Côi', 'province': 'Thái Bình'}
+Status: CORRECT
+
+Address: , Nam Đông,T. T.T.H
+Result: {'province': 'Hà Tĩnh', 'district': 'Nam Đông', 'ward': 'Khe Tre'}
+Expected: {'district': 'Nam Đông', 'ward': '', 'province': 'Thừa Thiên Huế'}
+Status: INCORRECT
+
+Address:  Cam Nhân HuyệnYên Bình TYên Bái
+Result: {'province': 'Ninh Bình', 'district': '', 'ward': ''}
+Expected: {'district': 'Yên Bình', 'ward': 'Cảm Nhân', 'province': 'Yên Bái'}
+Status: INCORRECT
+
+Address: TTĐức An Huyện Đắk SongTỉnhĐắk Nông
+Result: {'province': 'Đắk Nông', 'district': '', 'ward': ''}
+Expected: {'district': 'Đắk Song', 'ward': 'Đức An', 'province': 'Đắk Nông'}
+Status: INCORRECT
+
+Address: Xã Ninh Sở, Huyện Thường Tin, T.Phà Nội
+Result: {'province': 'Hà Nội', 'district': 'Thường Tín', 'ward': 'Ninh Sở'}
+Expected: {'district': 'Thường Tín', 'ward': 'Ninh Sở', 'province': 'Hà Nội'}
+Status: CORRECT
+
+Address: X Đoàn đào,4 Phù Cừ,T.Hưng Yên
+Result: {'province': 'Hưng Yên', 'district': 'Phù Cừ', 'ward': 'Đoàn Đào'}
+Expected: {'district': 'Phù Cừ', 'ward': 'Đoàn Đào', 'province': 'Hưng Yên'}
+Status: CORRECT
+
+Address: X. Hương Liên HuyệnHương Khê T Hà Tinh
+Result: {'province': 'Hưng Yên', 'district': '', 'ward': ''}
+Expected: {'district': 'Hương Khê', 'ward': 'Hương Liên', 'province': 'Hà Tĩnh'}
+Status: INCORRECT
+
+Address: ,H.Hoài ân,TBình Dịnh
+Result: {'province': 'Bình Định', 'district': 'Hoài Ân', 'ward': 'Ân Mỹ'}
+Expected: {'district': 'Hoài Ân', 'ward': '', 'province': 'Bình Định'}
+Status: INCORRECT
+
+Address: Phườni Tràng Minh Q. Kiến An Thành phố Hải Phòng
+Result: {'province': 'Hải Phòng', 'district': '', 'ward': ''}
+Expected: {'district': 'Kiến An', 'ward': 'Tràng Minh', 'province': 'Hải Phòng'}
+Status: INCORRECT
+
+Address:  bản HoJn huyện Tam Đường Tỉnh Lai Châu
+Result: {'province': 'Bà Rịa - Vũng Tàu', 'district': '', 'ward': ''}
+Expected: {'district': 'Tam Đường', 'ward': 'Bản Hon', 'province': 'Lai Châu'}
+Status: INCORRECT
+
+Address:  Điên Hải, Đông Hải, T bạc Liêu
+Result: {'province': 'Bạc Liêu', 'district': 'Đông Hải', 'ward': 'Điền Hải'}
+Expected: {'district': 'Đông Hải', 'ward': 'Điền Hải', 'province': 'Bạc Liêu'}
+Status: CORRECT
+
+Address: , H KBang, Gia Lai
+Result: {'province': 'Gia Lai', 'district': 'Kbang', 'ward': 'Kbang'}
+Expected: {'district': 'KBang', 'ward': '', 'province': 'Gia Lai'}
+Status: INCORRECT
+
+Address: X. Thanh Phongjc , Tỉnhthanh hóa
+Result: {'province': 'Thanh Hóa', 'district': 'Thanh Chương', 'ward': ''}
+Expected: {'district': '', 'ward': 'Thanh Phong', 'province': 'Thanh Hóa'}
+Status: INCORRECT
+
+Address:   Bắc Trà My TỉnhQuảng NaHm
+Result: {'province': 'Quảng Nam', 'district': '', 'ward': ''}
+Expected: {'district': 'Bắc Trà My', 'ward': '', 'province': 'Quảng Nam'}
+Status: INCORRECT
+
+Address: xã Bình Trung,,TLạng Son
+Result: {'province': 'Lạng Sơn', 'district': '1', 'ward': 'Bến Thành'}
+Expected: {'district': '', 'ward': 'Bình Trung', 'province': 'Lạng Sơn'}
+Status: INCORRECT
+
+Address: ,  Ba Vì, TP Hà Nội
+Result: {'province': 'Hà Nội', 'district': 'Ba Vì', 'ward': 'Tây Đằng'}
+Expected: {'district': 'Ba Vì', 'ward': '', 'province': 'Hà Nội'}
+Status: INCORRECT
+
+Address: ,Diễn Châu,TỉnhNghệ An
+Result: {'province': 'Nghệ An', 'district': 'Diễn Châu', 'ward': 'Diễn Châu'}
+Expected: {'district': 'Diễn Châu', 'ward': '', 'province': 'Nghệ An'}
+Status: INCORRECT
+
+Address:  Muyện Châu Thành TỉnhĐồng Tháp
+Result: {'province': 'Đồng Tháp', 'district': '', 'ward': ''}
+Expected: {'district': 'Châu Thành', 'ward': '', 'province': 'Đồng Tháp'}
+Status: INCORRECT
+
+Address: Đông thanh AnE Minh T kien Giang
+Result: {'province': 'Tiền Giang', 'district': '', 'ward': ''}
+Expected: {'district': 'An Minh', 'ward': 'Đông Thạnh', 'province': 'Kiên Giang'}
+Status: INCORRECT
+
+Address: Xã Tân Lĩnh, H.Lục Yên, TYên Bái
+Result: {'province': 'Yên Bái', 'district': 'Lục Yên', 'ward': 'Tân Lĩnh'}
+Expected: {'district': 'Lục Yên', 'ward': 'Tân Lĩnh', 'province': 'Yên Bái'}
+Status: CORRECT
+
+Address: P Thủy Châu,T.X. hươngThủy,Thừa.t.Huế
+Result: {'province': 'Thanh Hóa', 'district': 'Hương Thủy', 'ward': 'Thủy Châu'}
+Expected: {'district': 'Hương Thủy', 'ward': 'Thủy Châu', 'province': 'Thừa Thiên Huế'}
+Status: INCORRECT
+
+Address: Thi trấ Ea. Knốp,H. Ea Kar,
+Result: {'province': 'Hà Nội', 'district': 'Ea Kar', 'ward': 'Ea Knốp'}
+Expected: {'district': 'Ea Kar', 'ward': 'Ea Knốp', 'province': ''}
+Status: INCORRECT
+
+Address: X. Quế Minh,HZuyện Quế Sơn,TỉnhQuảng Nam
+Result: {'province': 'Quảng Nam', 'district': 'Quế Sơn', 'ward': 'Quế Minh'}
+Expected: {'district': 'Quế Sơn', 'ward': 'Quế Minh', 'province': 'Quảng Nam'}
+Status: CORRECT
+
+Address: X.Nga Thanh hyện Nga son TỉnhThanhQ Hóa
+Result: {'province': 'Thanh Hóa', 'district': '', 'ward': ''}
+Expected: {'district': 'Nga Sơn', 'ward': 'Nga Thanh', 'province': 'Thanh Hóa'}
+Status: INCORRECT
+
+Address: Phường Phú Mỹ, Thà6nh phố Thủ Dầu Một, TBình Dương
+Result: {'province': 'Bình Dương', 'district': 'Thủ Dầu Một', 'ward': 'Phú Mỹ'}
+Expected: {'district': 'Thủ Dầu Một', 'ward': 'Phú Mỹ', 'province': 'Bình Dương'}
+Status: CORRECT
+
+Address: ,Lệ Thủy,T quảng BìnKh
+Result: {'province': 'Quảng Bình', 'district': 'Lệ Thủy', 'ward': 'Nt Lệ Ninh'}
+Expected: {'district': 'Lệ Thủy', 'ward': '', 'province': 'Quảng Bình'}
+Status: INCORRECT
+
+Address: F Tân bình  dĩ An 
+Result: {'province': 'Bình Thuận', 'district': '', 'ward': ''}
+Expected: {'district': 'Dĩ An', 'ward': 'Tân Bình', 'province': ''}
+Status: INCORRECT
+
+Address: x2Trung Sơn,,TỉnhNghê An
+Result: {'province': 'Nghệ An', 'district': '1', 'ward': 'Tân Định'}
+Expected: {'district': '', 'ward': 'Trung Sơn', 'province': 'Nghệ An'}
+Status: INCORRECT
+
+Address: XãCôn Lôn,H Na Hang,TỉnhC Tuyên.Quang
+Result: {'province': 'Tuyên Quang', 'district': 'Na Hang', 'ward': 'Côn Lôn'}
+Expected: {'district': 'Na Hang', 'ward': 'Côn Lôn', 'province': 'Tuyên Quang'}
+Status: CORRECT
+
+Address: Tân Hòa,H. Phú Tân,TnhAn Giang
+Result: {'province': 'Tiền Giang', 'district': 'Phú Tân', 'ward': 'Tân Hải'}
+Expected: {'district': 'Phú Tân', 'ward': 'Tân Hòa', 'province': 'An Giang'}
+Status: INCORRECT
+
